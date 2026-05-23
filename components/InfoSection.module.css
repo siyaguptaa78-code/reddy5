@@ -24,14 +24,14 @@
 }
 
 .text {
-  color: #bbb;
+  color: var(--text-secondary);
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
   text-align: justify;
 }
 
 .highlightText {
-  color: #fff;
+  color: var(--text-primary);
   font-size: 1.15rem;
   font-weight: 500;
   border-left: 4px solid var(--primary);
@@ -62,7 +62,7 @@
 
 .gridItem h3 {
   font-size: 1.8rem;
-  color: #fff;
+  color: var(--text-primary);
   margin-bottom: 1.5rem;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .gridItem p {
-  color: #bbb;
+  color: var(--text-secondary);
   line-height: 1.7;
 }
 

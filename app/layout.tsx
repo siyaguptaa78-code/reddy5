@@ -40,8 +40,14 @@ export default function RootLayout({
         style={{
           '--primary': SITE_CONFIG.theme.primary,
           '--primary-hover': SITE_CONFIG.theme.primaryHover,
+          '--primary-rgb': SITE_CONFIG.theme.primaryRgb,
           '--background': SITE_CONFIG.theme.background,
           '--secondary': SITE_CONFIG.theme.secondary,
+          '--foreground': SITE_CONFIG.theme.foreground,
+          '--text-primary': SITE_CONFIG.theme.textPrimary,
+          '--text-secondary': SITE_CONFIG.theme.textSecondary,
+          '--text-muted': SITE_CONFIG.theme.textMuted,
+          '--border': SITE_CONFIG.theme.border,
         } as React.CSSProperties}
       >
         {children}

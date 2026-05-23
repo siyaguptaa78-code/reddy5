@@ -10,10 +10,10 @@
 }
 
 .header.scrolled {
-  background: rgba(15, 15, 17, 0.95);
+  background: var(--secondary);
   backdrop-filter: blur(10px);
   padding: 1rem 0;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
   border-bottom: 1px solid var(--border-light);
 }
 
@@ -43,13 +43,13 @@
   font-size: 1rem;
   font-weight: 300;
   letter-spacing: 4px;
-  color: #fff;
+  color: var(--text-primary);
   margin-top: 2px;
 }
 
 .logoSub {
   font-size: 0.6rem;
-  color: #888;
+  color: var(--text-muted);
   letter-spacing: 2px;
   margin-top: 2px;
 }
@@ -62,7 +62,7 @@
 .desktopNav a {
   font-weight: 500;
   font-size: 0.95rem;
-  color: #ccc;
+  color: var(--text-secondary);
 }
 
 .desktopNav a:hover {

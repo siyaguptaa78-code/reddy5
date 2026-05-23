@@ -3,7 +3,7 @@
 }
 
 .subtitle {
-  color: #aaa;
+  color: var(--text-secondary);
   margin-bottom: 3rem;
   max-width: 700px;
   margin-left: auto;
@@ -31,14 +31,14 @@
 
 .table th {
   background: rgba(0,0,0,0.4);
-  color: #fff;
+  color: var(--text-primary);
   font-family: 'Playfair Display', serif;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
 .table td {
-  color: #ccc;
+  color: var(--text-secondary);
   font-size: 1rem;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .highlightCol {
-  background: rgba(212, 175, 55, 0.05);
+  background: rgba(var(--primary-rgb), 0.05);
   color: var(--primary) !important;
   font-weight: 600;
   border-left: 1px solid var(--border-light);
@@ -55,7 +55,7 @@
 }
 
 th.highlightCol {
-  background: rgba(212, 175, 55, 0.15);
+  background: rgba(var(--primary-rgb), 0.15);
   color: var(--primary) !important;
 }
 

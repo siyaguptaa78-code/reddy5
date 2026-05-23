@@ -1,5 +1,5 @@
 .section {
-  background-color: #0a0a0c;
+  background-color: var(--secondary);
   padding: 4rem 0;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .intro {
-  color: #ccc;
+  color: var(--text-secondary);
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 2rem;
@@ -48,7 +48,7 @@
 }
 
 .col h3 {
-  color: #fff;
+  color: var(--text-primary);
   font-size: 1.1rem;
   margin-bottom: 1rem;
 }
@@ -59,7 +59,7 @@
 }
 
 .list li {
-  color: #aaa;
+  color: var(--text-secondary);
   font-size: 0.95rem;
   margin-bottom: 0.8rem;
   display: flex;
@@ -80,7 +80,7 @@
   padding: 1.5rem;
   border-radius: var(--radius-sm);
   border-left: 4px solid #ff6b6b;
-  color: #ccc;
+  color: var(--text-secondary);
   font-size: 0.95rem;
   margin-bottom: 1.5rem;
 }
@@ -94,13 +94,13 @@
 }
 
 .age {
-  color: #999;
+  color: var(--text-muted);
   font-size: 0.9rem;
   line-height: 1.6;
 }
 
 .age strong {
-  color: #fff;
+  color: var(--text-primary);
 }
 
 @media (max-width: 992px) {

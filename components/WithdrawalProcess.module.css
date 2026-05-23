@@ -3,7 +3,7 @@
 }
 
 .subtitle {
-  color: #aaa;
+  color: var(--text-secondary);
   margin-bottom: 3rem;
   max-width: 800px;
   margin-left: auto;
@@ -38,7 +38,7 @@
 
 .methodCard h3 {
   font-size: 1.2rem;
-  color: #fff;
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
 
@@ -50,12 +50,12 @@
 }
 
 .methodCard p {
-  color: #999;
+  color: var(--text-muted);
   font-size: 0.95rem;
 }
 
 .recordsBox {
-  background: linear-gradient(145deg, var(--secondary) 0%, rgba(212, 175, 55, 0.05) 100%);
+  background: linear-gradient(145deg, var(--secondary) 0%, rgba(var(--primary-rgb), 0.05) 100%);
   border: 1px solid var(--border-light);
   border-radius: var(--radius-md);
   padding: 2.5rem;
@@ -69,7 +69,7 @@
 }
 
 .recordSub {
-  color: #fff;
+  color: var(--text-primary);
   font-style: italic;
   margin-bottom: 1.5rem;
 }
@@ -84,12 +84,12 @@
   padding: 1rem;
   border-radius: var(--radius-sm);
   margin-bottom: 0.5rem;
-  color: #ddd;
+  color: var(--text-primary);
   font-size: 0.95rem;
 }
 
 .recordList strong {
-  color: #fff;
+  color: var(--text-primary);
 }
 
 @media (max-width: 768px) {

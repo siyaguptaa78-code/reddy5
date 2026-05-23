@@ -41,7 +41,7 @@ export default function RegistrationSteps() {
           <div className={styles.imageCol}>
             <div className={styles.imageWrapper}>
               <Image 
-                src="/banners/banner2.png" 
+                src={SITE_CONFIG.images.registrationBanner} 
                 alt="Registration Steps" 
                 width={848}
                 height={1264}

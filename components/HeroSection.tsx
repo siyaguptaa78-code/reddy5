@@ -13,7 +13,7 @@ export default function HeroSection() {
         
         <div className={`${styles.bannerWrapper} animate-fade-in animate-delay-1`}>
           <Image 
-            src="/banners/banner1.png" 
+            src={SITE_CONFIG.images.heroBanner} 
             alt={`${SITE_CONFIG.brand.name} Official Platform`} 
             width={1698}
             height={608}

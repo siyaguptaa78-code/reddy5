@@ -4,23 +4,28 @@
   --background: #0f0f11;
   --foreground: #f0f0f0;
   
-  --primary: #d4af37; /* Premium Gold */
+  --text-primary: #ffffff;
+  --text-secondary: #bbbbbb;
+  --text-muted: #888888;
+  
+  --primary: #d4af37; /* Premium Gold default */
   --primary-hover: #f1c40f;
+  --primary-rgb: 212, 175, 55; /* Default Gold RGB */
   
   --secondary: #1a1a1f; /* Charcoal Card Background */
   --secondary-hover: #232329;
   
   --border: #333333;
-  --border-light: rgba(212, 175, 55, 0.3); /* Gold tint border */
+  --border-light: rgba(var(--primary-rgb), 0.3); /* Dynamically computed tint border */
 
-  --gradient-gold: linear-gradient(135deg, #d4af37 0%, #f39c12 100%);
+  --gradient-gold: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%); /* Dynamically computed gradient */
   --gradient-dark: linear-gradient(to bottom, #111111 0%, #0a0a0c 100%);
   
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 16px;
   
-  --shadow-gold: 0 4px 20px rgba(212, 175, 55, 0.15);
+  --shadow-gold: 0 4px 20px rgba(var(--primary-rgb), 0.15); /* Dynamically computed shadow */
   --shadow-dark: 0 10px 30px rgba(0, 0, 0, 0.5);
   
   --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -134,7 +139,7 @@ button {
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 6px 25px rgba(212, 175, 55, 0.4);
+  box-shadow: 0 6px 25px rgba(var(--primary-rgb), 0.4);
 }
 
 .btn-outline {
