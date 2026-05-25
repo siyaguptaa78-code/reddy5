@@ -3,21 +3,10 @@
   position: relative;
 }
 
-.featuresSection::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: radial-gradient(circle at center, rgba(var(--primary-rgb), 0.05) 0%, transparent 70%);
-  pointer-events: none;
-}
-
 .subtitle {
   color: var(--text-secondary);
   font-size: 1.1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -26,49 +15,46 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.8rem;
   margin-bottom: 4rem;
 }
 
 .card {
-  background: var(--secondary);
-  padding: 2.5rem 2rem;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border);
-  transition: var(--transition);
+  background: #ffffff;
+  padding: 2.2rem 1.8rem;
+  border-radius: 8px;
+  border: 2.5px solid #6b1201;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
 }
 
 .card:hover {
-  transform: translateY(-10px);
-  border-color: var(--primary);
-  background: rgba(26, 26, 31, 0.9);
-  box-shadow: var(--shadow-gold);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(107, 18, 1, 0.15);
+  border-color: #a90a0a;
 }
 
 .icon {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
+  font-size: 2.8rem;
+  margin-bottom: 1.2rem;
   display: inline-block;
-  background: rgba(var(--primary-rgb), 0.1);
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  border-radius: 50%;
-  color: var(--primary);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .card h3 {
-  font-size: 1.4rem;
-  color: var(--text-primary);
-  margin-bottom: 1rem;
-  font-family: 'Inter', sans-serif;
+  font-size: 1.35rem;
+  color: #111111;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .card p {
-  color: var(--text-muted);
+  color: #444444;
   font-size: 0.95rem;
-  line-height: 1.6;
+  line-height: 1.55;
+  font-weight: 500;
 }
 
 .ctaWrapper {
@@ -77,8 +63,9 @@
 }
 
 .largeCta {
-  font-size: 1.2rem;
-  padding: 20px 40px;
+  font-size: 1.15rem;
+  padding: 16px 36px;
+  border-radius: 50px;
 }
 
 @media (max-width: 992px) {
@@ -93,7 +80,7 @@
   }
   .largeCta {
     width: 100%;
-    font-size: 1.1rem;
-    padding: 16px 20px;
+    font-size: 1rem;
+    padding: 14px 20px;
   }
 }

@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
     name: "Reddy Anna",
     logoText1: "REDDY",
     logoText2: "ANNA",
-    logoSub: "OFFICIAL"
+    logoSub: "— SINCE 2010 —"
   },
 
   // ==========================================
@@ -61,35 +61,35 @@ export const SITE_CONFIG = {
     // textMuted: "#888888",
     // border: "#3a2222",
 
-    // PRESET 5: Crisp Light Green (Active Light Theme)
-    primary: "#10b981",
-    primaryHover: "#059669",
-    primaryRgb: "16, 185, 129",
-    background: "#f4fcf8",
+    // PRESET 5: Custom Maroon & Gold Theme (Active)
+    primary: "#6b1201",
+    primaryHover: "#8c1902",
+    primaryRgb: "107, 18, 1",
+    background: "#ffffff",
     secondary: "#ffffff",
-    foreground: "#11221a",
-    textPrimary: "#0a1a13",
-    textSecondary: "#405249",
-    textMuted: "#62776c",
-    border: "#e2f2e9",
+    foreground: "#111111",
+    textPrimary: "#111111",
+    textSecondary: "#333333",
+    textMuted: "#666666",
+    border: "#ebd5d5",
   },
 
   description: "Join Reddy Anna – India’s leading cricket betting ID platform. Enjoy instant access, safe payments, special bonuses & 24*7 support.",
   whatsappNumber: "918437261975",
   whatsappLink: "https://wa.me/918437261975",
-  url: "https://reddyannabookss.ind.in/",
+  url: "https://reddysports.co/",
 
   // ==========================================
   // IMAGES CONFIGURATION
   // ==========================================
   // Customize any image path here to update it across the site instantly.
   images: {
-    heroBanner: "/banners/banner1.png",
-    registrationBanner: "/banners/banner2.png",
+    heroBanner: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp",
+    registrationBanner: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-greyhound-racing.webp",
     banners: {
       banner1: {
-        src: "/banners/banner3.png",
-        alt: "Live Sports Coverage Banner",
+        src: "https://reddysports.co/wp-content/uploads/2026/03/west-bengal-assembly-election-2026-reddy-anna-betting.jpg",
+        alt: "West Bengal Election Betting live on Reddy Anna",
         width: 1456,
         height: 720
       },
@@ -166,16 +166,14 @@ export const SITE_CONFIG = {
     // PRESET C: Trust & Conversion Focused (Active - Highlights comparison & bonuses immediately)
     sectionOrder: [
       "hero",
-      "banner2",
-      "bonuses",
-      "registration",
-      "banner1",
-      "comparison",
-
-
-      "withdrawal",
-
       "sports",
+      "info",
+      "features",
+      "banner1",
+      "registration",
+      "withdrawal",
+      "bonuses",
+      "comparison",
       "faq",
       "testimonials",
       "responsible"

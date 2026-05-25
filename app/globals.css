@@ -87,7 +87,7 @@ button {
 .section-title {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
-  color: #ffffff;
+  color: var(--text-primary);
 }
 
 .section-title span {
@@ -122,7 +122,7 @@ button {
 /* Global Button */
 .btn-primary {
   background: var(--gradient-gold);
-  color: #000;
+  color: #ffffff;
   font-weight: 700;
   padding: 14px 28px;
   border-radius: 50px;
@@ -155,7 +155,71 @@ button {
 
 .btn-outline:hover {
   background: var(--primary);
-  color: #000;
+  color: #ffffff;
+}
+
+/* Custom Themed Action Buttons */
+.btn-red-action {
+  background-color: #a90a0a;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: var(--transition);
+  text-transform: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn-red-action:hover {
+  background-color: #cc1111;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(169, 10, 10, 0.2);
+}
+
+.btn-green-action {
+  background-color: #10b981;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: var(--transition);
+  text-transform: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn-green-action:hover {
+  background-color: #059669;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(16, 185, 129, 0.2);
+}
+
+.btn-gray-action {
+  background-color: #2b2b30;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: var(--transition);
+  text-transform: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn-gray-action:hover {
+  background-color: #1f1f23;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 /* Responsive adjustments */

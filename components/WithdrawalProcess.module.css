@@ -80,7 +80,8 @@
 }
 
 .recordList li {
-  background: rgba(0,0,0,0.3);
+  background: rgba(107, 18, 1, 0.05);
+  border-left: 3px solid var(--primary);
   padding: 1rem;
   border-radius: var(--radius-sm);
   margin-bottom: 0.5rem;

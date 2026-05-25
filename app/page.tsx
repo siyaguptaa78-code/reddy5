@@ -4,7 +4,7 @@ import RegistrationSteps from "@/components/RegistrationSteps";
 import ImageBanner from "@/components/ImageBanner";
 import InfoSection from "@/components/InfoSection";
 import Features from "@/components/Features";
-import SportsCoverage from "@/components/SportsCoverage";
+import GameLobbies from "@/components/GameLobbies";
 import WithdrawalProcess from "@/components/WithdrawalProcess";
 import Bonuses from "@/components/Bonuses";
 import ComparisonTable from "@/components/ComparisonTable";
@@ -19,7 +19,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType> = {
   registration: RegistrationSteps,
   features: Features,
   info: InfoSection,
-  sports: SportsCoverage,
+  sports: GameLobbies,
   withdrawal: WithdrawalProcess,
   bonuses: Bonuses,
   comparison: ComparisonTable,
