@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { SITE_CONFIG } from "@/config/constants";
 
@@ -36,17 +37,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7K2DYR1YJ4"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-7K2DYR1YJ4');
-            `
-          }}
-        />
       </head>
       <body 
         className={`${inter.variable} ${playfair.variable}`}
@@ -64,6 +54,19 @@ export default function RootLayout({
         } as React.CSSProperties}
       >
         {children}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-7K2DYR1YJ4" strategy="afterInteractive" />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){window.dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-7K2DYR1YJ4');
+            `
+          }}
+        />
       </body>
     </html>
   );
