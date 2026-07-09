@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import { SITE_CONFIG } from "@/config/constants";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
@@ -86,6 +87,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPJQFQ4X" height="0" width="0" style="display:none;visibility:hidden"></iframe>`
           }}
         />
+        <Navbar />
         {children}
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-7K2DYR1YJ4" strategy="afterInteractive" />
         <Script

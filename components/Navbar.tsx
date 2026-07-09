@@ -28,10 +28,12 @@ export default function Navbar() {
 
         {/* Desktop Menu */}
         <nav className={styles.desktopNav}>
-          <Link href="#home">Home</Link>
-          <Link href="#about">About Us</Link>
-          <Link href="#services">Services</Link>
-          <Link href="#contact">Contact</Link>
+          <Link href="/#hero">🏠 Home</Link>
+          <Link href="/#lobbies">🎰 Lobbies</Link>
+          <Link href="/#sports">🏏 Sports</Link>
+          <Link href="/#register">⚡ Register</Link>
+          <Link href="/#bonuses">🎁 Bonuses</Link>
+          <Link href="/#blogs">📝 Blogs</Link>
         </nav>
 
         <div className={styles.navActions}>
@@ -53,9 +55,12 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className={styles.mobileMenu}>
-          <Link href="#home" onClick={() => setMobileMenuOpen(false)}>Home</Link>
-          <Link href="#about" onClick={() => setMobileMenuOpen(false)}>About Us</Link>
-          <Link href="#services" onClick={() => setMobileMenuOpen(false)}>Services</Link>
+          <Link href="/#hero" onClick={() => setMobileMenuOpen(false)}>🏠 Home</Link>
+          <Link href="/#lobbies" onClick={() => setMobileMenuOpen(false)}>🎰 Lobbies</Link>
+          <Link href="/#sports" onClick={() => setMobileMenuOpen(false)}>🏏 Sports</Link>
+          <Link href="/#register" onClick={() => setMobileMenuOpen(false)}>⚡ Register</Link>
+          <Link href="/#bonuses" onClick={() => setMobileMenuOpen(false)}>🎁 Bonuses</Link>
+          <Link href="/#blogs" onClick={() => setMobileMenuOpen(false)}>📝 Blogs</Link>
           <div className={styles.mobileActions}>
              <WhatsAppButton variant="outline">Sign Up</WhatsAppButton>
              <WhatsAppButton>Login</WhatsAppButton>

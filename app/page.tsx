@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       {/* HERO SECTION */}
-      <section className={styles.hero}>
+      <section id="hero" className={styles.hero}>
         <div className={styles.container}>
           <div className={styles.heroContent}>
             <h1 className={styles.heading}>Reddy Anna – Get your official Reddy Anna ID</h1>
@@ -43,7 +43,7 @@ export default function Home() {
       </section>
 
       {/* ONLINE BOOK EXCHANGE LOBBIES */}
-      <section className={styles.section}>
+      <section id="lobbies" className={styles.section}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Online Book Exchange Lobbies</h2>
           <p className={styles.textCenter}>Click on any of the banners below to get instant access to the lobbies and play with India’s best book ID.</p>
@@ -71,7 +71,7 @@ export default function Home() {
       </section>
 
       {/* SPORTS BETTING MARKETS */}
-      <section className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
+      <section id="sports" className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Sports Betting Markets</h2>
           <div className={styles.grid4}>
@@ -96,7 +96,7 @@ export default function Home() {
       </section>
 
       {/* CRASH & FUN GAMES */}
-      <section className={styles.section}>
+      <section id="games" className={styles.section}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Crash & Fun Games</h2>
           <div className={styles.grid4}>
@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* BOOK ID PROVIDER WEBSITE */}
-      <section className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
+      <section id="about" className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
         <div className={styles.container}>
           <div className={styles.grid3} style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto' }}>
             <div className={styles.glassCard}>
@@ -146,7 +146,7 @@ export default function Home() {
       </section>
 
       {/* WHAT IS REDDY ANNA ID */}
-      <section className={styles.section}>
+      <section id="why-us" className={styles.section}>
         <div className={styles.container}>
           <div className={styles.grid3}>
             <div className={styles.glassCard}>
@@ -194,7 +194,7 @@ export default function Home() {
       </section>
 
       {/* HOW TO GET STARTED */}
-      <section className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
+      <section id="register" className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Get Your Reddy Anna ID Instantly</h2>
           <p className={styles.textCenter} style={{ marginBottom: '3rem' }}>Reddy Anna ID – How to Get Yours in 60 Seconds</p>
@@ -225,7 +225,7 @@ export default function Home() {
       </section>
 
       {/* WITHDRAWALS & TABLES */}
-      <section className={styles.section}>
+      <section id="withdrawals" className={styles.section}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Reddy Anna – Withdrawal Process – Fast, Transparent, and Guaranteed</h2>
           <p className={styles.textCenter} style={{ maxWidth: '800px', margin: '0 auto 3rem' }}>
@@ -284,7 +284,7 @@ export default function Home() {
       </section>
 
       {/* BONUSES */}
-      <section className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
+      <section id="bonuses" className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Reddy Anna Bonuses – Complete Breakdown</h2>
           
@@ -342,7 +342,7 @@ export default function Home() {
       </section>
 
       {/* COMPARISON */}
-      <section className={styles.section}>
+      <section id="comparison" className={styles.section}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Reddy Anna vs Others</h2>
           <p className={styles.textCenter} style={{ maxWidth: '800px', margin: '0 auto 3rem' }}>
@@ -405,8 +405,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* BLOGS SECTION */}
+      <section id="blogs" className={styles.section}>
+        <div className={styles.container}>
+          <h2 className={styles.subheading}>Latest Blogs & News</h2>
+          <div className={styles.grid3} style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto' }}>
+            <div className={styles.glassCard} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+              <h3 style={{ color: '#f8b500', fontSize: '1.8rem', marginBottom: '0.5rem', textAlign: 'left' }}>
+                Big Bash League 2026-27: BBL & WBBL Schedule, Teams, Dates & All You Need To Know
+              </h3>
+              <p style={{ color: '#ccc', fontSize: '1rem', lineHeight: '1.6' }}>
+                Two leagues, one brand and an Australian summer built around them. The Women's Big Bash League (WBBL) gets the 2026-27 season underway on 29 October, with the men's BBL|16 starting in mid-December and finishing on or around 31 January 2027. The Perth Scorchers are the defending men's champions for the record sixth time, while the Hobart Hurricanes have lifted the inaugural WBBL title last season.
+              </p>
+              <div style={{ marginTop: '1rem' }}>
+                <a href="/big-bash-league-2026-27/" className={styles.secondaryBtn} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                  Show More ➔
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ & REVIEWS */}
-      <section className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
+      <section id="faqs" className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
         <div className={styles.container}>
           <div className={styles.grid3} style={{ gridTemplateColumns: '1fr' }}>
             <div className={styles.glassCard} style={{ textAlign: 'center' }}>
