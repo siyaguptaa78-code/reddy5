@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './page.module.css';
 
 export default function Home() {
-  const WHATSAPP_LINK = "https://wa.me/916026703858";
+  const WHATSAPP_LINK = "https://wa.me/918796686330";
 
   return (
     <div className={styles.main}>

@@ -21,7 +21,9 @@ export default function Navbar() {
     <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <div className={`container ${styles.navContainer}`}>
         <Link href="/" className={styles.logo}>
-          <span className={styles.logoReddy}>{SITE_CONFIG.brand.logoText1}</span>
+          <span className={styles.logoReddy}>
+            {SITE_CONFIG.brand.logoText1}
+          </span>
           <span className={styles.logoAnna}>{SITE_CONFIG.brand.logoText2}</span>
           <div className={styles.logoSub}>{SITE_CONFIG.brand.logoSub}</div>
         </Link>
@@ -31,16 +33,36 @@ export default function Navbar() {
           <Link href="/#hero">🏠 Home</Link>
           <Link href="/#lobbies">🎰 Lobbies</Link>
           <Link href="/#sports">🏏 Sports</Link>
-          <Link href="/#register">⚡ Register</Link>
+          <Link
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ⚡ Register
+          </Link>
           <Link href="/#bonuses">🎁 Bonuses</Link>
           <Link href="/#blogs">📝 Blogs</Link>
         </nav>
 
         <div className={styles.navActions}>
-          <WhatsAppButton variant="outline" className={styles.desktopBtn}>Sign Up</WhatsAppButton>
-          <WhatsAppButton className={styles.desktopBtn}>Login</WhatsAppButton>
-          
-          <button 
+          <a
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`btn-outline ${styles.desktopBtn}`}
+          >
+            Sign Up
+          </a>
+          <a
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`btn-primary ${styles.desktopBtn}`}
+          >
+            Login
+          </a>
+
+          <button
             className={styles.mobileMenuBtn}
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle Menu"
@@ -55,15 +77,46 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {mobileMenuOpen && (
         <div className={styles.mobileMenu}>
-          <Link href="/#hero" onClick={() => setMobileMenuOpen(false)}>🏠 Home</Link>
-          <Link href="/#lobbies" onClick={() => setMobileMenuOpen(false)}>🎰 Lobbies</Link>
-          <Link href="/#sports" onClick={() => setMobileMenuOpen(false)}>🏏 Sports</Link>
-          <Link href="/#register" onClick={() => setMobileMenuOpen(false)}>⚡ Register</Link>
-          <Link href="/#bonuses" onClick={() => setMobileMenuOpen(false)}>🎁 Bonuses</Link>
-          <Link href="/#blogs" onClick={() => setMobileMenuOpen(false)}>📝 Blogs</Link>
+          <Link href="/#hero" onClick={() => setMobileMenuOpen(false)}>
+            🏠 Home
+          </Link>
+          <Link href="/#lobbies" onClick={() => setMobileMenuOpen(false)}>
+            🎰 Lobbies
+          </Link>
+          <Link href="/#sports" onClick={() => setMobileMenuOpen(false)}>
+            🏏 Sports
+          </Link>
+          <Link
+            href="https://www.Gabbar247.vip"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            ⚡ Register
+          </Link>
+          <Link href="/#bonuses" onClick={() => setMobileMenuOpen(false)}>
+            🎁 Bonuses
+          </Link>
+          <Link href="/#blogs" onClick={() => setMobileMenuOpen(false)}>
+            📝 Blogs
+          </Link>
           <div className={styles.mobileActions}>
-             <WhatsAppButton variant="outline">Sign Up</WhatsAppButton>
-             <WhatsAppButton>Login</WhatsAppButton>
+            <a
+              href="https://www.Gabbar247.vip"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline"
+            >
+              Sign Up
+            </a>
+            <a
+              href="https://www.Gabbar247.vip"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
+              Login
+            </a>
           </div>
         </div>
       )}
