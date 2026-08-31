@@ -56,7 +56,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="sog5HD9L3Yr4WVLBpkpboecuwE2-Q5PjCd7Z4ju-_iU" />
+        <meta name="google-site-verification" content="QZQ3l6zSqswP9JOJw1KP8EXL87tYdTX8zot5l7UM1Hc" />
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
