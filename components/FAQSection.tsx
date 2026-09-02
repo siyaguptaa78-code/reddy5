@@ -5,28 +5,44 @@ import { SITE_CONFIG } from "@/config/constants";
 
 const faqs = [
   {
-    q: `What is ${SITE_CONFIG.brand.name}?`,
-    a: `${SITE_CONFIG.brand.name} is India’s most trusted online cricket betting ID platform, active since 2010. It provides members with instant ID activation, live sports betting markets, and fast withdrawals.`
+    q: "What is Reddy Anna?",
+    a: "Reddy Anna is the brand or website referenced on this domain. Check the site's current pages and terms for the latest information."
   },
   {
-    q: `How do I get a ${SITE_CONFIG.brand.name} ID?`,
-    a: `Click “Get New ID”, enter your WhatsApp number, and receive your ID within 60 seconds. No documents required for registration.`
+    q: "How does a Reddy Anna ID work?",
+    a: "An account ID is generally used to identify a user account. Refer to Reddy Anna's current account instructions and terms for the exact process."
   },
   {
-    q: "What is the minimum deposit?",
-    a: "The minimum deposit is ₹100 – the lowest minimum in the Indian market."
+    q: "How can I access the Reddy Anna website?",
+    a: "Use the site's current official URL and verify the domain before entering any account information. Follow the access instructions published on the site."
   },
   {
-    q: "How fast are withdrawals?",
-    a: "UPI withdrawals process in under 30 minutes. Bank transfers complete in 1 to 2 hours. Crypto payouts take 5 to 15 minutes. Available 24/7."
+    q: "What sports are available on Reddy Anna?",
+    a: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
   },
   {
-    q: "Can I access it on mobile?",
-    a: "Yes. It works on any mobile browser. No app download is required. The platform is fully optimised for mobile screens."
+    q: "Does Reddy Anna provide live sports information?",
+    a: "Check the site's current sports section for any live-event information and the terms that apply to its use."
   },
   {
-    q: "What age is required to use this platform?",
-    a: "18 years and above only. Age is verified during the registration process."
+    q: "How can I get help with my Reddy Anna account?",
+    a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+  },
+  {
+    q: "What payment options are supported?",
+    a: "Use the contact or support details published on the website. Avoid relying on unofficial accounts or third-party contacts."
+  },
+  {
+    q: "How can I check Reddy Anna login information?",
+    a: "Use the official domain and follow the current login or access instructions. If access fails, use the site's published support channel."
+  },
+  {
+    q: "What should I do if I have a problem with my account?",
+    a: "Refer to Reddy Anna's current website information and terms for the most accurate answer."
+  },
+  {
+    q: "Where can I find the latest Reddy Anna updates?",
+    a: "Refer to Reddy Anna's current website information and terms for the most accurate answer."
   }
 ];
 
