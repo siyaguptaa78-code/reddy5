@@ -409,7 +409,21 @@ export default function Home() {
       <section id="blogs" className={styles.section}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Latest Blogs & News</h2>
-          <div className={styles.grid3} style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto' }}>
+          <div className={styles.grid3} style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto', gap: '2rem' }}>
+            <div className={styles.glassCard} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+              <h3 style={{ color: '#f8b500', fontSize: '1.8rem', marginBottom: '0.5rem', textAlign: 'left' }}>
+                September Cricket News: India’s Rising Stars, Major Records and a Changing International Landscape
+              </h3>
+              <p style={{ color: '#ccc', fontSize: '1rem', lineHeight: '1.6' }}>
+                New Delhi, September 2026: International cricket has entered another busy phase, with September bringing major developments across men's and women's cricket. From record-breaking performances by India's Smriti Mandhana to major changes within Pakistan cricket and important coaching appointments in Australia, the latest cricket news has produced plenty for Indian fans to follow.
+              </p>
+              <div style={{ marginTop: '1rem' }}>
+                <a href="/september-cricket-news/" className={styles.secondaryBtn} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                  Show More ➔
+                </a>
+              </div>
+            </div>
+
             <div className={styles.glassCard} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               <h3 style={{ color: '#f8b500', fontSize: '1.8rem', marginBottom: '0.5rem', textAlign: 'left' }}>
                 Big Bash League 2026-27: BBL & WBBL Schedule, Teams, Dates & All You Need To Know
