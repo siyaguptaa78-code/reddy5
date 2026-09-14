@@ -7,13 +7,13 @@ export default function ResponsibleGaming() {
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.warningHeader}>
-            <span className={styles.icon}>⚠️</span>
-            <h2>Responsible Gaming – Read Before You Start</h2>
+            <span className={styles.icon}>âš ï¸</span>
+            <h2>Responsible Gaming â€“ Read Before You Start</h2>
           </div>
 
           <div className={styles.content}>
             <p className={styles.intro}>
-              {SITE_CONFIG.brand.name} is an entertainment platform. Betting involves real money and carries financial risk. The platform takes responsible gaming seriously and asks every member to do the same.
+              {SITE_CONFIG.brand.name} is an entertainment platform. Gaming involves real money and carries financial risk. The platform takes responsible gaming seriously and asks every member to do the same.
             </p>
 
             <div className={styles.grid}>
@@ -22,9 +22,9 @@ export default function ResponsibleGaming() {
                 <ul className={styles.list}>
                   <li>Only bet with money you can afford to lose without financial hardship.</li>
                   <li>Set a deposit limit before you start and stick to it.</li>
-                  <li>Never try to recover a loss by placing larger bets – it rarely works.</li>
-                  <li>Take breaks regularly, especially during long live betting sessions.</li>
-                  <li>If betting starts to feel compulsive or stressful, stop and seek help.</li>
+                  <li>Never try to recover a loss by placing larger bets â€“ it rarely works.</li>
+                  <li>Take breaks regularly, especially during long live gaming sessions.</li>
+                  <li>If gaming starts to feel compulsive or stressful, stop and seek help.</li>
                 </ul>
               </div>
 

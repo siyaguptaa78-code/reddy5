@@ -8,7 +8,7 @@ export default function HeroSection() {
     <section className={styles.hero} id="home">
       <div className={`container ${styles.content}`}>
         <h1 className={`${styles.title} animate-fade-in`}>
-          <span className={styles.accent}>{SITE_CONFIG.brand.name}</span> – Get Your Official {SITE_CONFIG.brand.name} ID Instantly
+          <span className={styles.accent}>{SITE_CONFIG.brand.name}</span> â€“ Get Your Official {SITE_CONFIG.brand.name} ID Instantly
         </h1>
         
         <div className={`${styles.bannerWrapper} animate-fade-in animate-delay-1`}>
@@ -23,15 +23,15 @@ export default function HeroSection() {
         </div>
         
         <p className={`${styles.subtitle} animate-fade-in animate-delay-2`}>
-          Join India’s leading cricket betting ID platform since 2010. Enjoy instant access, safe payments, special bonuses & 24/7 support.
+          Join Indiaâ€™s leading cricket gaming ID platform since 2010. Enjoy instant access, safe payments, special bonuses & 24/7 support.
         </p>
         
         <div className={`${styles.ctaGroup} animate-fade-in animate-delay-3`}>
           <WhatsAppButton className={styles.mainCta}>
-            👉 Get Reddy Anna ID Here 👈
+            ðŸ‘‰ Get Reddy Anna ID Here ðŸ‘ˆ
           </WhatsAppButton>
           <WhatsAppButton variant="outline" className={styles.secondaryCta}>
-            👉 Get Online Betting ID 👈
+            ðŸ‘‰ Get Online Gaming ID ðŸ‘ˆ
           </WhatsAppButton>
         </div>
         

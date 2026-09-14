@@ -15,7 +15,7 @@ export default function Footer() {
               <span className={styles.logoAnna}>{SITE_CONFIG.brand.logoText2}</span>
             </Link>
             <p className={styles.desc}>
-              Experience secure online gaming, fast cricket betting IDs, instant deposits, quick withdrawals, and premium customer support with a trusted gaming platform designed for Indian users since 2010.
+              Experience secure online gaming, fast cricket gaming IDs, instant deposits, quick withdrawals, and premium customer support with a trusted gaming platform designed for Indian users since 2010.
             </p>
           </div>
 
@@ -41,7 +41,7 @@ export default function Footer() {
           <div className={styles.col}>
             <h4 className={styles.colTitle}>Get Started</h4>
             <p className={styles.desc} style={{ marginBottom: '1rem' }}>
-              Message us on WhatsApp to get your official betting ID instantly.
+              Message us on WhatsApp to get your official gaming ID instantly.
             </p>
             <WhatsAppButton variant="primary">
               Contact on WhatsApp

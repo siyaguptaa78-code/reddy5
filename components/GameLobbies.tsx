@@ -6,39 +6,39 @@ import { SITE_CONFIG } from "@/config/constants";
 import styles from "./GameLobbies.module.css";
 
 const CASINO_LOBBIES = [
-  { name: "SLOT GAMES", label: "Slots Lobby", gradient: "linear-gradient(135deg, #7c162e 0%, #ca4529 100%)", icon: "🎰" },
-  { name: "ROYAL GAMING", label: "Royal Table", gradient: "linear-gradient(135deg, #4d1059 0%, #7e1e9a 100%)", icon: "🃏" },
-  { name: "LOBBY WINFINITY", label: "Winfinity", gradient: "linear-gradient(135deg, #112a3a 0%, #1e4f6d 100%)", icon: "🎡" },
-  { name: "LOBBY VIVO", label: "Vivo Live", gradient: "linear-gradient(135deg, #09477d 0%, #1775c7 100%)", icon: "👸" },
-  { name: "FISHING GAMES", label: "Fish Hunter", gradient: "linear-gradient(135deg, #028fc7 0%, #1ad2ff 100%)", icon: "🦈" },
-  { name: "KINGMIDAS LOBBY", label: "King Midas", gradient: "linear-gradient(135deg, #224375 0%, #3d79ce 100%)", icon: "🏰" },
-  { name: "LOBBY ASIA GAMES", label: "Asia Games", gradient: "linear-gradient(135deg, #4e2920 0%, #7e4638 100%)", icon: "👘" },
-  { name: "LOBBY AURA", label: "Aura Gaming", gradient: "linear-gradient(135deg, #0b593f 0%, #1d9d73 100%)", icon: "💎" },
+  { name: "SLOT GAMES", label: "Slots Lobby", gradient: "linear-gradient(135deg, #7c162e 0%, #ca4529 100%)", icon: "ðŸŽ°" },
+  { name: "ROYAL GAMING", label: "Royal Table", gradient: "linear-gradient(135deg, #4d1059 0%, #7e1e9a 100%)", icon: "ðŸƒ" },
+  { name: "LOBBY WINFINITY", label: "Winfinity", gradient: "linear-gradient(135deg, #112a3a 0%, #1e4f6d 100%)", icon: "ðŸŽ¡" },
+  { name: "LOBBY VIVO", label: "Vivo Live", gradient: "linear-gradient(135deg, #09477d 0%, #1775c7 100%)", icon: "ðŸ‘¸" },
+  { name: "FISHING GAMES", label: "Fish Hunter", gradient: "linear-gradient(135deg, #028fc7 0%, #1ad2ff 100%)", icon: "ðŸ¦ˆ" },
+  { name: "KINGMIDAS LOBBY", label: "King Midas", gradient: "linear-gradient(135deg, #224375 0%, #3d79ce 100%)", icon: "ðŸ°" },
+  { name: "LOBBY ASIA GAMES", label: "Asia Games", gradient: "linear-gradient(135deg, #4e2920 0%, #7e4638 100%)", icon: "ðŸ‘˜" },
+  { name: "LOBBY AURA", label: "Aura Gaming", gradient: "linear-gradient(135deg, #0b593f 0%, #1d9d73 100%)", icon: "ðŸ’Ž" },
 ];
 
 const SPORTS_LOBBIES = [
-  { name: "TENNIS", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp", gradient: "linear-gradient(135deg, #8b2b1a 0%, #d46337 100%)", icon: "🎾" },
-  { name: "VOLLEYBALL", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp", gradient: "linear-gradient(135deg, #59551c 0%, #a49646 100%)", icon: "🏐" },
-  { name: "BASKETBALL", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp", gradient: "linear-gradient(135deg, #6c4e20 0%, #b28a47 100%)", icon: "🏀" },
-  { name: "E SPORTS", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp", gradient: "linear-gradient(135deg, #1f6b3e 0%, #4db579 100%)", icon: "🎮" },
-  { name: "WINNER CUP", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp", gradient: "linear-gradient(135deg, #b58d2a 0%, #ffd46f 100%)", icon: "🏆" },
-  { name: "ELECTION", image: "https://reddysports.co/wp-content/uploads/2026/03/west-bengal-assembly-election-2026-reddy-anna-betting.jpg", gradient: "linear-gradient(135deg, #0a848c 0%, #29cfdc 100%)", icon: "🗳️", badge: "Live" },
-  { name: "CRICKET", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp", gradient: "linear-gradient(135deg, #5c2020 0%, #a24c4c 100%)", icon: "🏏" },
-  { name: "FOOTBALL", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp", gradient: "linear-gradient(135deg, #0e5b56 0%, #2ea098 100%)", icon: "⚽" },
+  { name: "TENNIS", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-gaming.webp", gradient: "linear-gradient(135deg, #8b2b1a 0%, #d46337 100%)", icon: "ðŸŽ¾" },
+  { name: "VOLLEYBALL", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-gaming.webp", gradient: "linear-gradient(135deg, #59551c 0%, #a49646 100%)", icon: "ðŸ" },
+  { name: "BASKETBALL", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-gaming.webp", gradient: "linear-gradient(135deg, #6c4e20 0%, #b28a47 100%)", icon: "ðŸ€" },
+  { name: "E SPORTS", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-gaming.webp", gradient: "linear-gradient(135deg, #1f6b3e 0%, #4db579 100%)", icon: "ðŸŽ®" },
+  { name: "WINNER CUP", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-gaming.webp", gradient: "linear-gradient(135deg, #b58d2a 0%, #ffd46f 100%)", icon: "ðŸ†" },
+  { name: "ELECTION", image: "https://reddysports.co/wp-content/uploads/2026/03/west-bengal-assembly-election-2026-reddy-anna-gaming.jpg", gradient: "linear-gradient(135deg, #0a848c 0%, #29cfdc 100%)", icon: "ðŸ—³ï¸", badge: "Live" },
+  { name: "CRICKET", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-gaming.webp", gradient: "linear-gradient(135deg, #5c2020 0%, #a24c4c 100%)", icon: "ðŸ" },
+  { name: "FOOTBALL", image: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-gaming.webp", gradient: "linear-gradient(135deg, #0e5b56 0%, #2ea098 100%)", icon: "âš½" },
 ];
 
 const FUN_LOBBIES = [
-  { name: "MINES", label: "Minesweeper Cash", gradient: "linear-gradient(135deg, #31114d 0%, #6f1f8b 100%)", icon: "💣", sub: "Mines" },
-  { name: "COLOR PREDICTION", label: "1 Min Color Forecast", gradient: "linear-gradient(135deg, #0e3d74 0%, #1573c7 100%)", icon: "🎲", sub: "Color Prediction" },
-  { name: "AVIATOR", label: "Crash Plane Multiplier", gradient: "linear-gradient(135deg, #590924 0%, #c41c58 100%)", icon: "✈️", sub: "Aviator" },
-  { name: "FUN GAMES", label: "Instant Quick Games", gradient: "linear-gradient(135deg, #06193d 0%, #113473 100%)", icon: "🎯", sub: "Fun Games" },
+  { name: "MINES", label: "Minesweeper Cash", gradient: "linear-gradient(135deg, #31114d 0%, #6f1f8b 100%)", icon: "ðŸ’£", sub: "Mines" },
+  { name: "COLOR PREDICTION", label: "1 Min Color Forecast", gradient: "linear-gradient(135deg, #0e3d74 0%, #1573c7 100%)", icon: "ðŸŽ²", sub: "Color Prediction" },
+  { name: "AVIATOR", label: "Crash Plane Multiplier", gradient: "linear-gradient(135deg, #590924 0%, #c41c58 100%)", icon: "âœˆï¸", sub: "Aviator" },
+  { name: "FUN GAMES", label: "Instant Quick Games", gradient: "linear-gradient(135deg, #06193d 0%, #113473 100%)", icon: "ðŸŽ¯", sub: "Fun Games" },
 ];
 
 export default function GameLobbies() {
   const [showPromo, setShowPromo] = useState<string | null>(null);
 
   const getWhatsAppLink = (lobbyName: string) => {
-    const text = encodeURIComponent(`Hi Reddy Anna, I want to access the ${lobbyName} Lobby! Please set up my official betting ID.`);
+    const text = encodeURIComponent(`Hi Reddy Anna, I want to access the ${lobbyName} Lobby! Please set up my official gaming ID.`);
     return `${SITE_CONFIG.whatsappLink}?text=${text}`;
   };
 
@@ -68,13 +68,13 @@ export default function GameLobbies() {
                 <span className={styles.lobbyIcon}>{lobby.icon}</span>
                 <span className={styles.lobbyName}>{lobby.name}</span>
               </div>
-              <span className={styles.joinBadge}>Join Lobby ➜</span>
+              <span className={styles.joinBadge}>Join Lobby âžœ</span>
             </a>
           ))}
         </div>
 
         {/* 2. Sports Lobbies */}
-        <h3 className={styles.categoryTitle} style={{ marginTop: "4rem" }}>Sports Betting Markets</h3>
+        <h3 className={styles.categoryTitle} style={{ marginTop: "4rem" }}>Sports Gaming Markets</h3>
         <div className={styles.sportsGrid}>
           {SPORTS_LOBBIES.map((lobby, index) => (
             <div
@@ -93,7 +93,7 @@ export default function GameLobbies() {
               <div className={styles.sportsIcon}>{lobby.icon}</div>
               <h4 className={styles.sportsName}>{lobby.name}</h4>
               <span className={styles.actionText}>
-                {lobby.name === "ELECTION" ? "View Promo ➜" : "Place Bets ➜"}
+                {lobby.name === "ELECTION" ? "View Promo âžœ" : "Place Bets âžœ"}
               </span>
             </div>
           ))}
@@ -103,14 +103,14 @@ export default function GameLobbies() {
         {showPromo === "election" && (
           <div className={styles.promoBannerBox}>
             <div className={styles.promoHeader}>
-              <h4>🗳️ Assembly Election 2026 Betting Live!</h4>
-              <button onClick={() => setShowPromo(null)} className={styles.closeBtn}>×</button>
+              <h4>ðŸ—³ï¸ Assembly Election 2026 Gaming Live!</h4>
+              <button onClick={() => setShowPromo(null)} className={styles.closeBtn}>Ã—</button>
             </div>
             <div className={styles.promoBody}>
               <div className={styles.promoImageWrapper}>
                 <img
-                  src="https://reddysports.co/wp-content/uploads/2026/03/west-bengal-assembly-election-2026-reddy-anna-betting.jpg"
-                  alt="West Bengal Election Betting"
+                  src="https://reddysports.co/wp-content/uploads/2026/03/west-bengal-assembly-election-2026-reddy-anna-gaming.jpg"
+                  alt="West Bengal Election Gaming"
                   className={styles.promoImg}
                 />
               </div>
@@ -146,14 +146,14 @@ export default function GameLobbies() {
                 <span className={styles.funSub}>{lobby.sub}</span>
               </div>
               <h4 className={styles.funLabel}>{lobby.label}</h4>
-              <span className={styles.playBadge}>Play Now ➜</span>
+              <span className={styles.playBadge}>Play Now âžœ</span>
             </a>
           ))}
         </div>
 
         <div className="text-center" style={{ marginTop: "4rem" }}>
           <WhatsAppButton className={styles.centralCta}>
-            💬 Join Any Game Lobby via WhatsApp 💬
+            ðŸ’¬ Join Any Game Lobby via WhatsApp ðŸ’¬
           </WhatsAppButton>
         </div>
       </div>

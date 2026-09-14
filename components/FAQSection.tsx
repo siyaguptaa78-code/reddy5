@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: "What sports are available on Reddy Anna?",
-    a: "Available sports can change. Check the current sports or betting section on the website for the latest list and availability."
+    a: "Available sports can change. Check the current sports or gaming section on the website for the latest list and availability."
   },
   {
     q: "Does Reddy Anna provide live sports information?",
@@ -71,7 +71,7 @@ export default function FAQSection() {
                 onClick={() => toggleFaq(index)}
               >
                 <h3>{faq.q}</h3>
-                <span className={styles.icon}>{openIndex === index ? "−" : "+"}</span>
+                <span className={styles.icon}>{openIndex === index ? "âˆ’" : "+"}</span>
               </div>
               <div className={styles.faqAnswer}>
                 <p>{faq.a}</p>

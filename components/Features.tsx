@@ -4,48 +4,48 @@ import styles from "./Features.module.css";
 const featuresData = [
   {
     title: "Established Reputation",
-    description: "Backed by over 10 years of excellence in the betting industry.",
-    icon: "✅"
+    description: "Backed by over 10 years of excellence in the gaming industry.",
+    icon: "âœ…"
   },
   {
     title: "Instant Reddy Anna ID",
-    description: "Register and start betting in under 2 minutes.",
-    icon: "⚡"
+    description: "Register and start gaming in under 2 minutes.",
+    icon: "âš¡"
   },
   {
     title: "Fast Withdrawals",
     description: "Same-day UPI and wallet transfers with no hidden fees.",
-    icon: "💸"
+    icon: "ðŸ’¸"
   },
   {
-    title: "Wide Betting Coverage",
+    title: "Wide Gaming Coverage",
     description: "Cricket, football, kabaddi, tennis, esports, and live casinos.",
-    icon: "🎯"
+    icon: "ðŸŽ¯"
   },
   {
     title: "100% Secure Platform",
     description: "SSL encryption, OTP verification, and full KYC compliance.",
-    icon: "🔒"
+    icon: "ðŸ”’"
   },
   {
     title: "Mobile-Friendly Access",
     description: "Play on the go with the Reddy Anna App.",
-    icon: "📱"
+    icon: "ðŸ“±"
   },
   {
     title: "Exciting Bonuses",
     description: "Welcome offers, cashback rewards, and festival promotions.",
-    icon: "🎁"
+    icon: "ðŸŽ"
   },
   {
     title: "24/7 Support",
     description: "Reach us anytime via WhatsApp, Telegram, or live chat.",
-    icon: "🤝"
+    icon: "ðŸ¤"
   },
   {
     title: "Responsible Gaming",
-    description: "Tools for setting limits, self-exclusion, and safe betting practices.",
-    icon: "🧠"
+    description: "Tools for setting limits, self-exclusion, and safe gaming practices.",
+    icon: "ðŸ§ "
   }
 ];
 
@@ -57,7 +57,7 @@ export default function Features() {
           Why Choose <span>Reddy Anna</span>
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          Experience the premium difference with India's most trusted online betting platform.
+          Experience the premium difference with India's most trusted online gaming platform.
         </p>
 
         <div className={styles.grid}>

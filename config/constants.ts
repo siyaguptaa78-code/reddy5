@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
     name: "Reddy Anna",
     logoText1: "REDDY",
     logoText2: "ANNA",
-    logoSub: "— SINCE 2010 —"
+    logoSub: "â€” SINCE 2010 â€”"
   },
 
   // ==========================================
@@ -74,7 +74,7 @@ export const SITE_CONFIG = {
     border: "#ebd5d5",
   },
 
-  description: "Join Reddy Anna – India’s leading cricket betting ID platform. Enjoy instant access, safe payments, special bonuses & 24*7 support.",
+  description: "Join Reddy Anna â€“ Indiaâ€™s leading cricket gaming ID platform. Enjoy instant access, safe payments, special bonuses & 24*7 support.",
   whatsappNumber: "918360750829",
   whatsappLink: "https://wa.me/918360750829",
   url: "https://reddysports.co/",
@@ -84,12 +84,12 @@ export const SITE_CONFIG = {
   // ==========================================
   // Customize any image path here to update it across the site instantly.
   images: {
-    heroBanner: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-betting.webp",
+    heroBanner: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-sports-gaming.webp",
     registrationBanner: "https://reddysports.co/wp-content/uploads/2026/02/reddy-anna-greyhound-racing.webp",
     banners: {
       banner1: {
-        src: "https://reddysports.co/wp-content/uploads/2026/03/west-bengal-assembly-election-2026-reddy-anna-betting.jpg",
-        alt: "West Bengal Election Betting live on Reddy Anna",
+        src: "https://reddysports.co/wp-content/uploads/2026/03/west-bengal-assembly-election-2026-reddy-anna-gaming.jpg",
+        alt: "West Bengal Election Gaming live on Reddy Anna",
         width: 1456,
         height: 720
       },

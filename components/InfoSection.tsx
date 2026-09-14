@@ -19,30 +19,30 @@ export default function InfoSection() {
           </h2>
           <div className={styles.introTextWrapper}>
             <p className={styles.introParagraph}>
-              Reddy Anna Book is one of the most trusted platforms for online betting and gaming in India, offering a smooth and secure experience for users. By getting your ID from an official provider, you ensure fast access, safe transactions, and uninterrupted betting during major events like IPL and international matches.
+              Reddy Anna Book is one of the most trusted platforms for online gaming and gaming in India, offering a smooth and secure experience for users. By getting your ID from an official provider, you ensure fast access, safe transactions, and uninterrupted gaming during major events like IPL and international matches.
             </p>
             <p className={styles.introParagraph}>
-              The platform provides instant ID creation, easy login, and full support through WhatsApp and dedicated customer service. Whether you want to download the app, get your ID instantly, or connect with support, everything is designed for user convenience with fast withdrawals and real-time betting.
+              The platform provides instant ID creation, easy login, and full support through WhatsApp and dedicated customer service. Whether you want to download the app, get your ID instantly, or connect with support, everything is designed for user convenience with fast withdrawals and real-time gaming.
             </p>
           </div>
 
           {/* Action Buttons Row 1 */}
           <div className={styles.btnRowOne}>
             <WhatsAppButton className="btn-red-action">
-              📲 Download Reddy Anna App
+              ðŸ“² Download Reddy Anna App
             </WhatsAppButton>
             <WhatsAppButton className="btn-green-action">
-              💬 Get ID on WhatsApp
+              ðŸ’¬ Get ID on WhatsApp
             </WhatsAppButton>
             <WhatsAppButton className="btn-gray-action">
-              📞 Contact Reddy Anna Support
+              ðŸ“ž Contact Reddy Anna Support
             </WhatsAppButton>
           </div>
 
           {/* Action Buttons Row 2 */}
           <div className={styles.btnRowTwo}>
             <WhatsAppButton className={styles.largeChatBtn}>
-              💬 Chat Support on WhatsApp
+              ðŸ’¬ Chat Support on WhatsApp
             </WhatsAppButton>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function InfoSection() {
               </div>
               
               <p className={styles.idLeadText}>
-                Your <strong>Reddy Anna ID</strong> is your personal key to access all games and betting markets on our platform.
+                Your <strong>Reddy Anna ID</strong> is your personal key to access all games and gaming markets on our platform.
               </p>
               <p className={styles.idSubLeadText}>
                 With one verified ID, you can:
@@ -82,23 +82,23 @@ export default function InfoSection() {
 
               <ul className={styles.checklist}>
                 <li>
-                  <span className={styles.bulletCheck}>✓</span>
+                  <span className={styles.bulletCheck}>âœ“</span>
                   <span>Bet on <strong>cricket, football, kabaddi, and tennis</strong>.</span>
                 </li>
                 <li>
-                  <span className={styles.bulletCheck}>✓</span>
+                  <span className={styles.bulletCheck}>âœ“</span>
                   <span>Play <strong>live casino games</strong> like Teen Patti, Poker, and Roulette.</span>
                 </li>
                 <li>
-                  <span className={styles.bulletCheck}>✓</span>
-                  <span>Access your <strong>betting dashboard</strong> to manage funds, bonuses, and bet history.</span>
+                  <span className={styles.bulletCheck}>âœ“</span>
+                  <span>Access your <strong>gaming dashboard</strong> to manage funds, bonuses, and bet history.</span>
                 </li>
                 <li>
-                  <span className={styles.bulletCheck}>✓</span>
+                  <span className={styles.bulletCheck}>âœ“</span>
                   <span>Deposit and withdraw money <strong>instantly via UPI or NetBanking</strong>.</span>
                 </li>
                 <li>
-                  <span className={styles.bulletCheck}>✓</span>
+                  <span className={styles.bulletCheck}>âœ“</span>
                   <span>Receive exclusive <strong>promotions linked to your Reddy Anna account</strong>.</span>
                 </li>
               </ul>

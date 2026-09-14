@@ -15,8 +15,8 @@ export default function SportsCoverage() {
         <div className={styles.grid}>
           {/* Cricket */}
           <div className={styles.card}>
-            <div className={styles.icon}>🏏</div>
-            <h3>Cricket Betting</h3>
+            <div className={styles.icon}>ðŸ</div>
+            <h3>Cricket Gaming</h3>
             <ul className={styles.list}>
               <li>International Test matches and ODIs</li>
               <li>ICC tournaments (T20 World Cup)</li>
@@ -27,8 +27,8 @@ export default function SportsCoverage() {
 
           {/* Football */}
           <div className={styles.card}>
-            <div className={styles.icon}>⚽</div>
-            <h3>Football Betting</h3>
+            <div className={styles.icon}>âš½</div>
+            <h3>Football Gaming</h3>
             <ul className={styles.list}>
               <li>English Premier League</li>
               <li>La Liga & UEFA Champions League</li>
@@ -39,24 +39,24 @@ export default function SportsCoverage() {
 
           {/* Other Sports */}
           <div className={styles.card}>
-            <div className={styles.icon}>🎯</div>
+            <div className={styles.icon}>ðŸŽ¯</div>
             <h3>Other Sports</h3>
             <ul className={styles.list}>
-              <li>Tennis – Grand Slams, ATP, WTA</li>
-              <li>Kabaddi – Pro Kabaddi League</li>
-              <li>Horse Racing – Mumbai, Pune, Bengaluru</li>
+              <li>Tennis â€“ Grand Slams, ATP, WTA</li>
+              <li>Kabaddi â€“ Pro Kabaddi League</li>
+              <li>Horse Racing â€“ Mumbai, Pune, Bengaluru</li>
             </ul>
           </div>
 
           {/* Casino */}
           <div className={styles.card}>
-            <div className={styles.icon}>🎰</div>
+            <div className={styles.icon}>ðŸŽ°</div>
             <h3>Live Casino</h3>
             <ul className={styles.list}>
-              <li>Teen Patti – Live dealers</li>
-              <li>Andar Bahar – Fast card game</li>
+              <li>Teen Patti â€“ Live dealers</li>
+              <li>Andar Bahar â€“ Fast card game</li>
               <li>Roulette & Blackjack</li>
-              <li>Baccarat – High roller game</li>
+              <li>Baccarat â€“ High roller game</li>
             </ul>
           </div>
         </div>

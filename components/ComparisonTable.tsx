@@ -9,7 +9,7 @@ export default function ComparisonTable() {
           <span>{SITE_CONFIG.brand.name}</span> vs Other Platforms
         </h2>
         <p className={`text-center ${styles.subtitle}`}>
-          The Indian online betting space has many platforms, but trust is the single most important factor. Here is how we compare.
+          The Indian online gaming space has many platforms, but trust is the single most important factor. Here is how we compare.
         </p>
 
         <div className={styles.tableWrapper}>
@@ -34,8 +34,8 @@ export default function ComparisonTable() {
               </tr>
               <tr>
                 <td>Minimum Deposit</td>
-                <td className={styles.highlightCol}>₹100</td>
-                <td>₹500 to ₹1,000</td>
+                <td className={styles.highlightCol}>â‚¹100</td>
+                <td>â‚¹500 to â‚¹1,000</td>
               </tr>
               <tr>
                 <td>UPI Withdrawal Speed</td>
@@ -44,7 +44,7 @@ export default function ComparisonTable() {
               </tr>
               <tr>
                 <td>Welcome Bonus</td>
-                <td className={styles.highlightCol}>500% up to ₹50,000</td>
+                <td className={styles.highlightCol}>500% up to â‚¹50,000</td>
                 <td>100% to 200%</td>
               </tr>
               <tr>

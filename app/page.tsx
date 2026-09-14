@@ -10,17 +10,17 @@ export default function Home() {
       <section id="hero" className={styles.hero}>
         <div className={styles.container}>
           <div className={styles.heroContent}>
-            <h1 className={styles.heading}>Reddy Anna – Get your official Reddy Anna ID</h1>
+            <h1 className={styles.heading}>Reddy Anna â€“ Get your official Reddy Anna ID</h1>
             <p className={styles.text} style={{ fontSize: '1.2rem', maxWidth: '800px', margin: '0 auto' }}>
-              Get your official cricket betting ID at India’s best betting ID provider since 2010. With easy payment options, special bonuses, and 24×7 customer support, you can get activated for betting in just 60 seconds.
+              Get your official cricket gaming ID at Indiaâ€™s best gaming ID provider since 2010. With easy payment options, special bonuses, and 24Ã—7 customer support, you can get activated for gaming in just 60 seconds.
             </p>
             
             <div className={styles.ctaContainer}>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className={styles.primaryBtn}>
-                👉 Get Reddy Anna ID Here 👈
+                ðŸ‘‰ Get Reddy Anna ID Here ðŸ‘ˆ
               </a>
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className={styles.secondaryBtn}>
-                👉 Get Online Betting ID 👈
+                ðŸ‘‰ Get Online Gaming ID ðŸ‘ˆ
               </a>
             </div>
 
@@ -46,49 +46,49 @@ export default function Home() {
       <section id="lobbies" className={styles.section}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Online Book Exchange Lobbies</h2>
-          <p className={styles.textCenter}>Click on any of the banners below to get instant access to the lobbies and play with India’s best book ID.</p>
+          <p className={styles.textCenter}>Click on any of the banners below to get instant access to the lobbies and play with Indiaâ€™s best book ID.</p>
           
           <h3 className={styles.subheading} style={{ marginTop: '3rem', fontSize: '1.8rem' }}>Slot & Casino Lobbies</h3>
           <div className={styles.grid4}>
             {[
-              { icon: '🎰', title: 'SLOT GAMES' },
-              { icon: '🃏', title: 'ROYAL GAMING' },
-              { icon: '🎡', title: 'LOBBY WINFINITY' },
-              { icon: '👸', title: 'LOBBY VIVO' },
-              { icon: '🦈', title: 'FISHING GAMES' },
-              { icon: '🏰', title: 'KINGMIDAS LOBBY' },
-              { icon: '👘', title: 'LOBBY ASIA GAMES' },
-              { icon: '💎', title: 'LOBBY AURA' }
+              { icon: 'ðŸŽ°', title: 'SLOT GAMES' },
+              { icon: 'ðŸƒ', title: 'ROYAL GAMING' },
+              { icon: 'ðŸŽ¡', title: 'LOBBY WINFINITY' },
+              { icon: 'ðŸ‘¸', title: 'LOBBY VIVO' },
+              { icon: 'ðŸ¦ˆ', title: 'FISHING GAMES' },
+              { icon: 'ðŸ°', title: 'KINGMIDAS LOBBY' },
+              { icon: 'ðŸ‘˜', title: 'LOBBY ASIA GAMES' },
+              { icon: 'ðŸ’Ž', title: 'LOBBY AURA' }
             ].map((item, i) => (
               <a href={WHATSAPP_LINK} key={i} className={styles.lobbyCard} style={{textDecoration: 'none'}}>
                 <div className={styles.lobbyIcon}>{item.icon}</div>
                 <h4 className={styles.lobbyTitle} style={{color: '#fff'}}>{item.title}</h4>
-                <div className={styles.lobbyBtn}>Join Lobby ➜</div>
+                <div className={styles.lobbyBtn}>Join Lobby âžœ</div>
               </a>
             ))}
           </div>
         </div>
       </section>
 
-      {/* SPORTS BETTING MARKETS */}
+      {/* SPORTS GAMING MARKETS */}
       <section id="sports" className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
         <div className={styles.container}>
-          <h2 className={styles.subheading}>Sports Betting Markets</h2>
+          <h2 className={styles.subheading}>Sports Gaming Markets</h2>
           <div className={styles.grid4}>
             {[
-              { icon: '🎾', title: 'TENNIS' },
-              { icon: '🏐', title: 'VOLLEYBALL' },
-              { icon: '🏀', title: 'BASKETBALL' },
-              { icon: '🎮', title: 'E SPORTS' },
-              { icon: '🏆', title: 'WINNER CUP' },
-              { icon: '🗳️', title: 'ELECTION' },
-              { icon: '🏏', title: 'CRICKET' },
-              { icon: '⚽', title: 'FOOTBALL' }
+              { icon: 'ðŸŽ¾', title: 'TENNIS' },
+              { icon: 'ðŸ', title: 'VOLLEYBALL' },
+              { icon: 'ðŸ€', title: 'BASKETBALL' },
+              { icon: 'ðŸŽ®', title: 'E SPORTS' },
+              { icon: 'ðŸ†', title: 'WINNER CUP' },
+              { icon: 'ðŸ—³ï¸', title: 'ELECTION' },
+              { icon: 'ðŸ', title: 'CRICKET' },
+              { icon: 'âš½', title: 'FOOTBALL' }
             ].map((item, i) => (
               <a href={WHATSAPP_LINK} key={i} className={styles.lobbyCard} style={{textDecoration: 'none'}}>
                 <div className={styles.lobbyIcon}>{item.icon}</div>
                 <h4 className={styles.lobbyTitle} style={{color: '#fff'}}>{item.title}</h4>
-                <div className={styles.lobbyBtn}>{item.title === 'ELECTION' ? 'View Promo ➜' : 'Place Bets ➜'}</div>
+                <div className={styles.lobbyBtn}>{item.title === 'ELECTION' ? 'View Promo âžœ' : 'Place Bets âžœ'}</div>
               </a>
             ))}
           </div>
@@ -101,22 +101,22 @@ export default function Home() {
           <h2 className={styles.subheading}>Crash & Fun Games</h2>
           <div className={styles.grid4}>
             {[
-              { icon: '💣', title: 'Mines', desc: 'Minesweeper Cash' },
-              { icon: '🎲', title: 'Color Prediction', desc: '1 Min Color Forecast' },
-              { icon: '✈️', title: 'Aviator', desc: 'Crash Plane Multiplier' },
-              { icon: '🎯', title: 'Fun Games', desc: 'Instant Quick Games' }
+              { icon: 'ðŸ’£', title: 'Mines', desc: 'Minesweeper Cash' },
+              { icon: 'ðŸŽ²', title: 'Color Prediction', desc: '1 Min Color Forecast' },
+              { icon: 'âœˆï¸', title: 'Aviator', desc: 'Crash Plane Multiplier' },
+              { icon: 'ðŸŽ¯', title: 'Fun Games', desc: 'Instant Quick Games' }
             ].map((item, i) => (
               <a href={WHATSAPP_LINK} key={i} className={styles.lobbyCard} style={{textDecoration: 'none'}}>
                 <div className={styles.lobbyIcon}>{item.icon}</div>
                 <h4 className={styles.lobbyTitle} style={{color: '#fff', marginBottom: '0.5rem'}}>{item.title}</h4>
                 <p style={{color: '#ccc', marginBottom: '1.5rem', fontSize: '0.9rem'}}>{item.desc}</p>
-                <div className={styles.lobbyBtn}>Play Now ➜</div>
+                <div className={styles.lobbyBtn}>Play Now âžœ</div>
               </a>
             ))}
           </div>
           
           <div className={styles.waBanner}>
-            <h3>💬 Join Any Game Lobby with WhatsApp 💬</h3>
+            <h3>ðŸ’¬ Join Any Game Lobby with WhatsApp ðŸ’¬</h3>
             <p style={{color: '#eee', marginBottom: '1.5rem'}}>Get instant access and play your favorite games safely.</p>
             <a href={WHATSAPP_LINK} className={styles.waBtn}>Message on WhatsApp</a>
           </div>
@@ -130,15 +130,15 @@ export default function Home() {
             <div className={styles.glassCard}>
               <h2 className={styles.subheading} style={{ textAlign: 'left' }}>Book ID Provider Website</h2>
               <p className={styles.text}>
-                Reddy Anna Book is one of India’s most trusted online betting and gaming sites that offer customers a smooth and secure betting experience. By getting your book ID from the official source, you can access the most trustworthy online sports betting portal and play live during the IPL and other matches.
+                Reddy Anna Book is one of Indiaâ€™s most trusted online gaming and gaming sites that offer customers a smooth and secure gaming experience. By getting your book ID from the official source, you can access the most trustworthy online sports gaming portal and play live during the IPL and other matches.
               </p>
               <p className={styles.text}>
-                With instant ID creation, easy login, and 24×7 WhatsApp support, the book ID provider website makes it super easy to download the app, get the ID on WhatsApp, and start betting on your favorite sports and games. With instant withdrawals to your UPI or NetBanking account, betting on live sports matches becomes more seamless.
+                With instant ID creation, easy login, and 24Ã—7 WhatsApp support, the book ID provider website makes it super easy to download the app, get the ID on WhatsApp, and start gaming on your favorite sports and games. With instant withdrawals to your UPI or NetBanking account, gaming on live sports matches becomes more seamless.
               </p>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginTop: '2rem' }}>
-                <a href={WHATSAPP_LINK} className={styles.secondaryBtn}>📲 Download Reddy Anna App</a>
-                <a href={WHATSAPP_LINK} className={styles.secondaryBtn}>💬 Get ID on WhatsApp</a>
-                <a href={WHATSAPP_LINK} className={styles.secondaryBtn}>📞 Contact Reddy Anna Support</a>
+                <a href={WHATSAPP_LINK} className={styles.secondaryBtn}>ðŸ“² Download Reddy Anna App</a>
+                <a href={WHATSAPP_LINK} className={styles.secondaryBtn}>ðŸ’¬ Get ID on WhatsApp</a>
+                <a href={WHATSAPP_LINK} className={styles.secondaryBtn}>ðŸ“ž Contact Reddy Anna Support</a>
               </div>
             </div>
           </div>
@@ -154,9 +154,9 @@ export default function Home() {
               <p className={styles.text}>Your Reddy Anna ID is your personal key to the entire universe of games.</p>
               <p className={styles.text}>With just one verified ID, you can:</p>
               <ul className={styles.checkList}>
-                <li>Bet on live sports – cricket, football, kabaddi, tennis, and many more</li>
-                <li>Play live casino games – Teen Patti, Poker, Roulette, and more</li>
-                <li>Access your betting dashboard to view your bets, deposits, and withdrawals.</li>
+                <li>Bet on live sports â€“ cricket, football, kabaddi, tennis, and many more</li>
+                <li>Play live casino games â€“ Teen Patti, Poker, Roulette, and more</li>
+                <li>Access your gaming dashboard to view your bets, deposits, and withdrawals.</li>
                 <li>Withdraw cash straight to your UPI/NetBanking account instantly.</li>
                 <li>Get special cashbacks on your Reddy Anna ID.</li>
               </ul>
@@ -165,26 +165,26 @@ export default function Home() {
             
             <div className={styles.glassCard}>
               <h2 className={styles.subheading} style={{ textAlign: 'left' }}>Why choose Reddy Anna?</h2>
-              <p className={styles.text}>Choose India’s most trusted online betting platform and get a variety of benefits such as:</p>
+              <p className={styles.text}>Choose Indiaâ€™s most trusted online gaming platform and get a variety of benefits such as:</p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginTop: '1.5rem' }}>
                 <div>
-                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>✅ Reputed Brand</h4>
-                  <p style={{ color: '#ccc', fontSize: '0.9rem' }}>With more than a decade in the online betting domain, you can completely rely on us to keep your money and data safe.</p>
+                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>âœ… Reputed Brand</h4>
+                  <p style={{ color: '#ccc', fontSize: '0.9rem' }}>With more than a decade in the online gaming domain, you can completely rely on us to keep your money and data safe.</p>
                 </div>
                 <div>
-                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>⚡ Instant Reddy Anna ID</h4>
-                  <p style={{ color: '#ccc', fontSize: '0.9rem' }}>Create and start betting in just a few minutes after registering on the portal.</p>
+                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>âš¡ Instant Reddy Anna ID</h4>
+                  <p style={{ color: '#ccc', fontSize: '0.9rem' }}>Create and start gaming in just a few minutes after registering on the portal.</p>
                 </div>
                 <div>
-                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>💸 Instant Withdrawals</h4>
+                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>ðŸ’¸ Instant Withdrawals</h4>
                   <p style={{ color: '#ccc', fontSize: '0.9rem' }}>Withdraw cash from your Reddy Anna wallet to your UPI or NetBanking account the same day with no extra charges.</p>
                 </div>
                 <div>
-                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>🎯 Wide Betting Markets</h4>
-                  <p style={{ color: '#ccc', fontSize: '0.9rem' }}>Get access to betting on your favorite sports – cricket, football, kabaddi, tennis, and more.</p>
+                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>ðŸŽ¯ Wide Gaming Markets</h4>
+                  <p style={{ color: '#ccc', fontSize: '0.9rem' }}>Get access to gaming on your favorite sports â€“ cricket, football, kabaddi, tennis, and more.</p>
                 </div>
                 <div>
-                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>🔒 100% Safe & Secure</h4>
+                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>ðŸ”’ 100% Safe & Secure</h4>
                   <p style={{ color: '#ccc', fontSize: '0.9rem' }}>All financial transactions on the portal are encrypted with the best encryption technology.</p>
                 </div>
               </div>
@@ -197,7 +197,7 @@ export default function Home() {
       <section id="register" className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
         <div className={styles.container}>
           <h2 className={styles.subheading}>Get Your Reddy Anna ID Instantly</h2>
-          <p className={styles.textCenter} style={{ marginBottom: '3rem' }}>Reddy Anna ID – How to Get Yours in 60 Seconds</p>
+          <p className={styles.textCenter} style={{ marginBottom: '3rem' }}>Reddy Anna ID â€“ How to Get Yours in 60 Seconds</p>
           
           <div className={styles.grid4}>
             <div className={styles.stepCard}>
@@ -208,7 +208,7 @@ export default function Home() {
             <div className={styles.stepCard}>
               <div className={styles.stepNumber}>2</div>
               <h3 style={{ color: '#f8b500', marginBottom: '1rem', fontSize: '1.3rem' }}>Click "Get New ID"</h3>
-              <p style={{ color: '#ccc', fontSize: '0.95rem' }}>On the portal’s homepage, you will see a CTA button that says "Get New ID." Click on it to register and get your Reddy Anna ID.</p>
+              <p style={{ color: '#ccc', fontSize: '0.95rem' }}>On the portalâ€™s homepage, you will see a CTA button that says "Get New ID." Click on it to register and get your Reddy Anna ID.</p>
             </div>
             <div className={styles.stepCard}>
               <div className={styles.stepNumber}>3</div>
@@ -227,7 +227,7 @@ export default function Home() {
       {/* WITHDRAWALS & TABLES */}
       <section id="withdrawals" className={styles.section}>
         <div className={styles.container}>
-          <h2 className={styles.subheading}>Reddy Anna – Withdrawal Process – Fast, Transparent, and Guaranteed</h2>
+          <h2 className={styles.subheading}>Reddy Anna â€“ Withdrawal Process â€“ Fast, Transparent, and Guaranteed</h2>
           <p className={styles.textCenter} style={{ maxWidth: '800px', margin: '0 auto 3rem' }}>
             The most common question any bettor would ask is whether they can withdraw their earnings. On Reddy Anna, all withdrawals are fast, transparent, and guaranteed. You can trust the portal to deliver your cash without a hassle.
           </p>
@@ -247,7 +247,7 @@ export default function Home() {
             </div>
           </div>
 
-          <h3 className={styles.subheading} style={{ marginTop: '4rem', fontSize: '1.8rem' }}>UPI Withdrawals – Verified Records</h3>
+          <h3 className={styles.subheading} style={{ marginTop: '4rem', fontSize: '1.8rem' }}>UPI Withdrawals â€“ Verified Records</h3>
           <div className={styles.tableContainer}>
             <table className={styles.table}>
               <thead>
@@ -262,19 +262,19 @@ export default function Home() {
                 <tr>
                   <td>Rajesh Sharma</td>
                   <td>UPI</td>
-                  <td>₹1,85,000</td>
+                  <td>â‚¹1,85,000</td>
                   <td>22 Minutes</td>
                 </tr>
                 <tr>
                   <td>Priya Singh</td>
                   <td>Paytm</td>
-                  <td>₹45,000</td>
+                  <td>â‚¹45,000</td>
                   <td>11 Minutes</td>
                 </tr>
                 <tr>
                   <td>Suresh Patel</td>
                   <td>Bank Transfer</td>
-                  <td>₹2,50,000</td>
+                  <td>â‚¹2,50,000</td>
                   <td>18 Minutes</td>
                 </tr>
               </tbody>
@@ -286,12 +286,12 @@ export default function Home() {
       {/* BONUSES */}
       <section id="bonuses" className={styles.section} style={{ background: 'rgba(255,255,255,0.02)' }}>
         <div className={styles.container}>
-          <h2 className={styles.subheading}>Reddy Anna Bonuses – Complete Breakdown</h2>
+          <h2 className={styles.subheading}>Reddy Anna Bonuses â€“ Complete Breakdown</h2>
           
           <div className={styles.grid3} style={{ gridTemplateColumns: '1fr 1fr' }}>
             <div className={styles.glassCard}>
               <h3 style={{ color: '#f8b500', marginBottom: '1rem', fontSize: '1.5rem' }}>CODE: REDDY500 - 500% Welcome Bonus</h3>
-              <p style={{ color: '#ccc', marginBottom: '1.5rem' }}>CODE: REDDY500 is one of the best welcome bonus codes in the Indian online cricket betting scene. Enjoy a 500% welcome bonus on your first deposit. Simply deposit ₹500 to ₹50,000 and enjoy extra betting power.</p>
+              <p style={{ color: '#ccc', marginBottom: '1.5rem' }}>CODE: REDDY500 is one of the best welcome bonus codes in the Indian online cricket gaming scene. Enjoy a 500% welcome bonus on your first deposit. Simply deposit â‚¹500 to â‚¹50,000 and enjoy extra gaming power.</p>
               
               <div className={styles.tableContainer} style={{ marginTop: '0' }}>
                 <table className={styles.table}>
@@ -302,10 +302,10 @@ export default function Home() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr><td>₹500</td><td>₹3,000</td></tr>
-                    <tr><td>₹1,000</td><td>₹6,000</td></tr>
-                    <tr><td>₹5,000</td><td>₹30,000</td></tr>
-                    <tr><td>₹10,000</td><td>₹60,000</td></tr>
+                    <tr><td>â‚¹500</td><td>â‚¹3,000</td></tr>
+                    <tr><td>â‚¹1,000</td><td>â‚¹6,000</td></tr>
+                    <tr><td>â‚¹5,000</td><td>â‚¹30,000</td></tr>
+                    <tr><td>â‚¹10,000</td><td>â‚¹60,000</td></tr>
                   </tbody>
                 </table>
               </div>
@@ -313,13 +313,13 @@ export default function Home() {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
               <div className={styles.glassCard}>
-                <h3 style={{ color: '#f8b500', marginBottom: '1rem', fontSize: '1.5rem' }}>DAILY CASHBACK – 15%</h3>
+                <h3 style={{ color: '#f8b500', marginBottom: '1rem', fontSize: '1.5rem' }}>DAILY CASHBACK â€“ 15%</h3>
                 <p style={{ color: '#ccc' }}>Every day at midnight, we release a 15% cashback on the net loss made by the members on the previous day. The cashback is directly added to your Reddy Anna wallet without the need to claim or enter any promo codes.</p>
               </div>
 
               <div className={styles.glassCard}>
-                <h3 style={{ color: '#f8b500', marginBottom: '1rem', fontSize: '1.5rem' }}>NO LIMIT ₹1,500 REFERRAL BONUS</h3>
-                <p style={{ color: '#ccc', marginBottom: '1.5rem' }}>Refer friends to join Reddy Anna using your referral link and earn a ₹1,500 bonus for every friend who deposits ₹500 or more. Share your referral link and start earning!</p>
+                <h3 style={{ color: '#f8b500', marginBottom: '1rem', fontSize: '1.5rem' }}>NO LIMIT â‚¹1,500 REFERRAL BONUS</h3>
+                <p style={{ color: '#ccc', marginBottom: '1.5rem' }}>Refer friends to join Reddy Anna using your referral link and earn a â‚¹1,500 bonus for every friend who deposits â‚¹500 or more. Share your referral link and start earning!</p>
                 <div className={styles.tableContainer} style={{ marginTop: '0' }}>
                   <table className={styles.table}>
                     <thead>
@@ -329,9 +329,9 @@ export default function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr><td>5</td><td>₹7,500</td></tr>
-                      <tr><td>20</td><td>₹30,000</td></tr>
-                      <tr><td>50</td><td>₹75,000</td></tr>
+                      <tr><td>5</td><td>â‚¹7,500</td></tr>
+                      <tr><td>20</td><td>â‚¹30,000</td></tr>
+                      <tr><td>50</td><td>â‚¹75,000</td></tr>
                     </tbody>
                   </table>
                 </div>
@@ -346,7 +346,7 @@ export default function Home() {
         <div className={styles.container}>
           <h2 className={styles.subheading}>Reddy Anna vs Others</h2>
           <p className={styles.textCenter} style={{ maxWidth: '800px', margin: '0 auto 3rem' }}>
-            The Indian online betting space is highly competitive. While there are several credible sites, the following comparison highlights why Reddy Anna is the best online betting portal in India.
+            The Indian online gaming space is highly competitive. While there are several credible sites, the following comparison highlights why Reddy Anna is the best online gaming portal in India.
           </p>
 
           <div className={styles.tableContainer}>
@@ -371,8 +371,8 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td>Minimum Deposit</td>
-                  <td style={{ color: '#10b981', fontWeight: 'bold' }}>₹100</td>
-                  <td>₹500 to ₹1,000</td>
+                  <td style={{ color: '#10b981', fontWeight: 'bold' }}>â‚¹100</td>
+                  <td>â‚¹500 to â‚¹1,000</td>
                 </tr>
                 <tr>
                   <td>UPI Withdrawal Speed</td>
@@ -381,7 +381,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td>Welcome Bonus</td>
-                  <td style={{ color: '#10b981', fontWeight: 'bold' }}>500% up to ₹50,000</td>
+                  <td style={{ color: '#10b981', fontWeight: 'bold' }}>500% up to â‚¹50,000</td>
                   <td>100% to 200%</td>
                 </tr>
                 <tr>
@@ -412,14 +412,14 @@ export default function Home() {
           <div className={styles.grid3} style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto', gap: '2rem' }}>
             <div className={styles.glassCard} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               <h3 style={{ color: '#f8b500', fontSize: '1.8rem', marginBottom: '0.5rem', textAlign: 'left' }}>
-                September Cricket News: India’s Rising Stars, Major Records and a Changing International Landscape
+                September Cricket News: Indiaâ€™s Rising Stars, Major Records and a Changing International Landscape
               </h3>
               <p style={{ color: '#ccc', fontSize: '1rem', lineHeight: '1.6' }}>
                 New Delhi, September 2026: International cricket has entered another busy phase, with September bringing major developments across men's and women's cricket. From record-breaking performances by India's Smriti Mandhana to major changes within Pakistan cricket and important coaching appointments in Australia, the latest cricket news has produced plenty for Indian fans to follow.
               </p>
               <div style={{ marginTop: '1rem' }}>
                 <a href="/september-cricket-news/" className={styles.secondaryBtn} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
-                  Show More ➔
+                  Show More âž”
                 </a>
               </div>
             </div>
@@ -433,7 +433,7 @@ export default function Home() {
               </p>
               <div style={{ marginTop: '1rem' }}>
                 <a href="/big-bash-league-2026-27/" className={styles.secondaryBtn} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
-                  Show More ➔
+                  Show More âž”
                 </a>
               </div>
             </div>
@@ -447,31 +447,31 @@ export default function Home() {
           <div className={styles.grid3} style={{ gridTemplateColumns: '1fr' }}>
             <div className={styles.glassCard} style={{ textAlign: 'center' }}>
               <h2 className={styles.subheading} style={{ marginBottom: '1rem' }}>Frequently Asked Questions</h2>
-              <p className={styles.text}>Reddy Anna is India’s most trusted online cricket betting ID platform that has been operating since 2010. It offers members the best in instant cricket betting ID activation, live sports betting markets, and instant withdrawals.</p>
+              <p className={styles.text}>Reddy Anna is Indiaâ€™s most trusted online cricket gaming ID platform that has been operating since 2010. It offers members the best in instant cricket gaming ID activation, live sports gaming markets, and instant withdrawals.</p>
             </div>
           </div>
 
           <h2 className={styles.subheading} style={{ marginTop: '5rem' }}>What Our Members Say About Reddy Anna</h2>
           <div className={styles.grid3}>
             <div className={styles.reviewCard}>
-              <div className={styles.stars}>★★★★★</div>
-              <p className={styles.reviewText}>"I have been using Reddy Anna for three IPL seasons, and the withdrawals are super fast; I have never had to wait for more than 20 minutes for the UPI withdrawal to reflect in my account. I referred it to four of my friends, and they all had a great experience. This is the only online portal I use for sports betting now."</p>
-              <p className={styles.reviewAuthor}>— Vikram Mehta, Hyderabad</p>
+              <div className={styles.stars}>â˜…â˜…â˜…â˜…â˜…</div>
+              <p className={styles.reviewText}>"I have been using Reddy Anna for three IPL seasons, and the withdrawals are super fast; I have never had to wait for more than 20 minutes for the UPI withdrawal to reflect in my account. I referred it to four of my friends, and they all had a great experience. This is the only online portal I use for sports gaming now."</p>
+              <p className={styles.reviewAuthor}>â€” Vikram Mehta, Hyderabad</p>
             </div>
             <div className={styles.reviewCard}>
-              <div className={styles.stars}>★★★★★</div>
-              <p className={styles.reviewText}>"I was a bit hesitant to deposit any money on any online sports betting portal after being scammed by a Telegram operator. One of my friends suggested I try Reddy Anna, and I deposited ₹100 and placed a few bets on CSK matches. I won ₹3,400 and got the cash within 15 minutes in my Paytm wallet."</p>
-              <p className={styles.reviewAuthor}>— Sneha Iyer, Chennai</p>
+              <div className={styles.stars}>â˜…â˜…â˜…â˜…â˜…</div>
+              <p className={styles.reviewText}>"I was a bit hesitant to deposit any money on any online sports gaming portal after being scammed by a Telegram operator. One of my friends suggested I try Reddy Anna, and I deposited â‚¹100 and placed a few bets on CSK matches. I won â‚¹3,400 and got the cash within 15 minutes in my Paytm wallet."</p>
+              <p className={styles.reviewAuthor}>â€” Sneha Iyer, Chennai</p>
             </div>
             <div className={styles.reviewCard}>
-              <div className={styles.stars}>★★★★★</div>
-              <p className={styles.reviewText}>"The minimum deposit of ₹100 got me addicted to the portal; I was not willing to deposit ₹1,000 on a new platform. I am now a regular member after three months and have withdrawn more than ₹40,000 in total with no issues. The live markets during the IPL are fantastic."</p>
-              <p className={styles.reviewAuthor}>— Arjun Kapoor, Jaipur</p>
+              <div className={styles.stars}>â˜…â˜…â˜…â˜…â˜…</div>
+              <p className={styles.reviewText}>"The minimum deposit of â‚¹100 got me addicted to the portal; I was not willing to deposit â‚¹1,000 on a new platform. I am now a regular member after three months and have withdrawn more than â‚¹40,000 in total with no issues. The live markets during the IPL are fantastic."</p>
+              <p className={styles.reviewAuthor}>â€” Arjun Kapoor, Jaipur</p>
             </div>
             <div className={styles.reviewCard}>
-              <div className={styles.stars}>★★★★★</div>
+              <div className={styles.stars}>â˜…â˜…â˜…â˜…â˜…</div>
               <p className={styles.reviewText}>"I had a few questions about the live login registration, but the support team was patient enough to answer all my questions via WhatsApp. My Reddy Anna ID was ready within a minute, and the entire process was much faster than any other portal I have used. It made other platforms look ridiculous in comparison."</p>
-              <p className={styles.reviewAuthor}>— Ravi Verma, Pune</p>
+              <p className={styles.reviewAuthor}>â€” Ravi Verma, Pune</p>
             </div>
           </div>
         </div>
@@ -482,17 +482,17 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.glassCard} style={{ borderLeft: '4px solid #ef4444', marginBottom: '4rem' }}>
             <h2 className={styles.subheading} style={{ color: '#ef4444', textAlign: 'left', display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <span>⚠️</span> Responsible Gaming – Read Before You Start
+              <span>âš ï¸</span> Responsible Gaming â€“ Read Before You Start
             </h2>
-            <p className={styles.text}>Reddy Anna is an entertainment platform, and as such, all betting activity involves real money. As a responsible gaming platform, we encourage all our members to only deposit an amount they are willing to part with and have fun doing so. We also advise our members never to chase losses by depositing more significant amounts as a result of a loss.</p>
-            <p className={styles.text}>Before you start betting on Reddy Anna, keep the following responsible gaming guidelines in mind:</p>
+            <p className={styles.text}>Reddy Anna is an entertainment platform, and as such, all gaming activity involves real money. As a responsible gaming platform, we encourage all our members to only deposit an amount they are willing to part with and have fun doing so. We also advise our members never to chase losses by depositing more significant amounts as a result of a loss.</p>
+            <p className={styles.text}>Before you start gaming on Reddy Anna, keep the following responsible gaming guidelines in mind:</p>
             <ul className={styles.checkList} style={{ margin: '1.5rem 0' }}>
-              <li style={{ color: '#ef4444' }}><span style={{ color: '#ef4444' }}>•</span> Only deposit an amount you are willing to part with and have fun doing so.</li>
-              <li style={{ color: '#ef4444' }}><span style={{ color: '#ef4444' }}>•</span> Set a deposit limit and never exceed it.</li>
-              <li style={{ color: '#ef4444' }}><span style={{ color: '#ef4444' }}>•</span> Avoid chasing losses by depositing larger amounts as a result of a loss.</li>
-              <li style={{ color: '#ef4444' }}><span style={{ color: '#ef4444' }}>•</span> Always take breaks between betting sessions, especially when playing live betting.</li>
+              <li style={{ color: '#ef4444' }}><span style={{ color: '#ef4444' }}>â€¢</span> Only deposit an amount you are willing to part with and have fun doing so.</li>
+              <li style={{ color: '#ef4444' }}><span style={{ color: '#ef4444' }}>â€¢</span> Set a deposit limit and never exceed it.</li>
+              <li style={{ color: '#ef4444' }}><span style={{ color: '#ef4444' }}>â€¢</span> Avoid chasing losses by depositing larger amounts as a result of a loss.</li>
+              <li style={{ color: '#ef4444' }}><span style={{ color: '#ef4444' }}>â€¢</span> Always take breaks between gaming sessions, especially when playing live gaming.</li>
             </ul>
-            <p className={styles.text}>If you feel that betting is becoming too stressful or you are unable to stop, it is best to take a break and seek help.</p>
+            <p className={styles.text}>If you feel that gaming is becoming too stressful or you are unable to stop, it is best to take a break and seek help.</p>
             <p className={styles.text} style={{ fontStyle: 'italic', color: '#a3a3a3' }}>This portal is intended for users 18 years or older. As such, we encourage you to only use this portal if you are 18 years or older. Users below the age of 18 are advised to seek parental guidance before using any online portal.</p>
           </div>
         </div>
@@ -502,7 +502,7 @@ export default function Home() {
             <div className={styles.footerGrid}>
               <div>
                 <h3 style={{ fontSize: '2rem', fontWeight: '900', letterSpacing: '2px', color: '#ffffff', marginBottom: '0.5rem' }}>REDDY <span style={{ color: '#f8b500' }}>ANNA</span></h3>
-                <p style={{ color: '#888', fontSize: '0.9rem', lineHeight: '1.6', marginTop: '1rem' }}>Experience secure online gaming, fast cricket betting IDs, instant deposits, quick withdrawals, and premium customer support with a trusted gaming platform designed for Indian users since 2010.</p>
+                <p style={{ color: '#888', fontSize: '0.9rem', lineHeight: '1.6', marginTop: '1rem' }}>Experience secure online gaming, fast cricket gaming IDs, instant deposits, quick withdrawals, and premium customer support with a trusted gaming platform designed for Indian users since 2010.</p>
               </div>
               <div className={styles.footerLinks}>
                 <h4>Quick Links</h4>
@@ -523,14 +523,14 @@ export default function Home() {
               </div>
               <div>
                 <h4 style={{ color: '#f8b500', marginBottom: '1.5rem' }}>Get Started</h4>
-                <p style={{ color: '#888', fontSize: '0.9rem', marginBottom: '1rem' }}>Message us on WhatsApp to get your official betting ID instantly.</p>
+                <p style={{ color: '#888', fontSize: '0.9rem', marginBottom: '1rem' }}>Message us on WhatsApp to get your official gaming ID instantly.</p>
                 <a href={WHATSAPP_LINK} className={styles.secondaryBtn} style={{ padding: '0.5rem 1.5rem', fontSize: '1rem' }}>Contact on WhatsApp</a>
               </div>
             </div>
             
             <div className={styles.copyright}>
               <p style={{ marginBottom: '0.5rem' }}>All users must be 18 years or older to access gaming services. Please play responsibly and follow your local laws before using online gaming platforms.</p>
-              <p>© 2026 Reddy Anna Network. All rights reserved.</p>
+              <p>Â© 2026 Reddy Anna Network. All rights reserved.</p>
             </div>
           </div>
         </footer>
