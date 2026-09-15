@@ -8,7 +8,7 @@ export default function ResponsibleGaming() {
         <div className={styles.wrapper}>
           <div className={styles.warningHeader}>
             <span className={styles.icon}>âš ï¸</span>
-            <h2>Responsible Gaming â€“ Read Before You Start</h2>
+            <h2>Responsible Gaming – Read Before You Start</h2>
           </div>
 
           <div className={styles.content}>
@@ -22,7 +22,7 @@ export default function ResponsibleGaming() {
                 <ul className={styles.list}>
                   <li>Only bet with money you can afford to lose without financial hardship.</li>
                   <li>Set a deposit limit before you start and stick to it.</li>
-                  <li>Never try to recover a loss by placing larger bets â€“ it rarely works.</li>
+                  <li>Never try to recover a loss by placing larger bets – it rarely works.</li>
                   <li>Take breaks regularly, especially during long live gaming sessions.</li>
                   <li>If gaming starts to feel compulsive or stressful, stop and seek help.</li>
                 </ul>

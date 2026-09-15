@@ -20,7 +20,7 @@ const featuresData = [
   {
     title: "Wide Gaming Coverage",
     description: "Cricket, football, kabaddi, tennis, esports, and live casinos.",
-    icon: "ðŸŽ¯"
+    icon: "🎯"
   },
   {
     title: "100% Secure Platform",

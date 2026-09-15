@@ -74,7 +74,7 @@ export const SITE_CONFIG = {
     border: "#ebd5d5",
   },
 
-  description: "Join Reddy Anna â€“ Indiaâ€™s leading cricket gaming ID platform. Enjoy instant access, safe payments, special bonuses & 24*7 support.",
+  description: "Join Reddy Anna – India’s leading cricket gaming ID platform. Enjoy instant access, safe payments, special bonuses & 24*7 support.",
   whatsappNumber: "918360750829",
   whatsappLink: "https://wa.me/918360750829",
   url: "https://reddysports.co/",

@@ -11,7 +11,7 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfa
 export const metadata: Metadata = {
   metadataBase: new URL("https://reddyraj.com"),
   applicationName: "Reddy Anna",
-  title: `${SITE_CONFIG.brand.name} â€“ Official ID | Get ${SITE_CONFIG.brand.name} Book ID Online`,
+  title: `${SITE_CONFIG.brand.name} – Official ID | Get ${SITE_CONFIG.brand.name} Book ID Online`,
   description: SITE_CONFIG.description,
   keywords: ["Reddy Anna", "Reddy Book", "Anna Book", "Cricket Gaming ID", "IPL Gaming ID", "Online Gaming India"],
   authors: [{ name: "Reddy Anna" }],
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     canonical: "https://reddyraj.com",
   },
   openGraph: {
-    title: `${SITE_CONFIG.brand.name} â€“ Official ID`,
+    title: `${SITE_CONFIG.brand.name} – Official ID`,
     description: SITE_CONFIG.description,
     url: "https://reddyraj.com",
     siteName: SITE_CONFIG.brand.name,
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE_CONFIG.brand.name} â€“ Official ID`,
+    title: `${SITE_CONFIG.brand.name} – Official ID`,
     description: SITE_CONFIG.description,
     images: ["/hero_bg.png"],
   },

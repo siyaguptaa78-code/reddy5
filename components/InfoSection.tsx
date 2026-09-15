@@ -29,20 +29,20 @@ export default function InfoSection() {
           {/* Action Buttons Row 1 */}
           <div className={styles.btnRowOne}>
             <WhatsAppButton className="btn-red-action">
-              ðŸ“² Download Reddy Anna App
+              📲 Download Reddy Anna App
             </WhatsAppButton>
             <WhatsAppButton className="btn-green-action">
-              ðŸ’¬ Get ID on WhatsApp
+              💬 Get ID on WhatsApp
             </WhatsAppButton>
             <WhatsAppButton className="btn-gray-action">
-              ðŸ“ž Contact Reddy Anna Support
+              📞 Contact Reddy Anna Support
             </WhatsAppButton>
           </div>
 
           {/* Action Buttons Row 2 */}
           <div className={styles.btnRowTwo}>
             <WhatsAppButton className={styles.largeChatBtn}>
-              ðŸ’¬ Chat Support on WhatsApp
+              💬 Chat Support on WhatsApp
             </WhatsAppButton>
           </div>
         </div>
