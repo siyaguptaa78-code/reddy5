@@ -15,10 +15,10 @@ export default function Bonuses() {
             <h3>500% Welcome Bonus</h3>
             <p>The highest welcome bonus in the Indian cricket gaming space. Deposit up to ₹50,000.</p>
             <ul className={styles.list}>
-              <li>Deposit ₹500 â†’ Play with ₹3,000</li>
-              <li>Deposit ₹1,000 â†’ Play with ₹6,000</li>
-              <li>Deposit ₹5,000 â†’ Play with ₹30,000</li>
-              <li>Deposit ₹10,000 â†’ Play with ₹60,000</li>
+              <li>Deposit ₹500 → Play with ₹3,000</li>
+              <li>Deposit ₹1,000 → Play with ₹6,000</li>
+              <li>Deposit ₹5,000 → Play with ₹30,000</li>
+              <li>Deposit ₹10,000 → Play with ₹60,000</li>
             </ul>
           </div>
 

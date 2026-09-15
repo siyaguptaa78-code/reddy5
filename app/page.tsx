@@ -52,11 +52,11 @@ export default function Home() {
           <div className={styles.grid4}>
             {[
               { icon: '🎰', title: 'SLOT GAMES' },
-              { icon: 'ðŸƒ', title: 'ROYAL GAMING' },
+              { icon: '🃏', title: 'ROYAL GAMING' },
               { icon: '🎡', title: 'LOBBY WINFINITY' },
               { icon: '👸', title: 'LOBBY VIVO' },
               { icon: '🦈', title: 'FISHING GAMES' },
-              { icon: 'ðŸ°', title: 'KINGMIDAS LOBBY' },
+              { icon: '👑', title: 'KINGMIDAS LOBBY' },
               { icon: '👘', title: 'LOBBY ASIA GAMES' },
               { icon: '💎', title: 'LOBBY AURA' }
             ].map((item, i) => (
@@ -77,12 +77,12 @@ export default function Home() {
           <div className={styles.grid4}>
             {[
               { icon: '🎾', title: 'TENNIS' },
-              { icon: 'ðŸ', title: 'VOLLEYBALL' },
-              { icon: 'ðŸ€', title: 'BASKETBALL' },
+              { icon: '🏐', title: 'VOLLEYBALL' },
+              { icon: '🏀', title: 'BASKETBALL' },
               { icon: '🎮', title: 'E SPORTS' },
-              { icon: 'ðŸ†', title: 'WINNER CUP' },
-              { icon: 'ðŸ—³ï¸', title: 'ELECTION' },
-              { icon: 'ðŸ', title: 'CRICKET' },
+              { icon: '🏆', title: 'WINNER CUP' },
+              { icon: '🗳️', title: 'ELECTION' },
+              { icon: '🏏', title: 'CRICKET' },
               { icon: '⚽', title: 'FOOTBALL' }
             ].map((item, i) => (
               <a href={WHATSAPP_LINK} key={i} className={styles.lobbyCard} style={{textDecoration: 'none'}}>
@@ -103,7 +103,7 @@ export default function Home() {
             {[
               { icon: '💣', title: 'Mines', desc: 'Minesweeper Cash' },
               { icon: '🎲', title: 'Color Prediction', desc: '1 Min Color Forecast' },
-              { icon: 'âœˆï¸', title: 'Aviator', desc: 'Crash Plane Multiplier' },
+              { icon: '✈️', title: 'Aviator', desc: 'Crash Plane Multiplier' },
               { icon: '🎯', title: 'Fun Games', desc: 'Instant Quick Games' }
             ].map((item, i) => (
               <a href={WHATSAPP_LINK} key={i} className={styles.lobbyCard} style={{textDecoration: 'none'}}>
@@ -168,15 +168,15 @@ export default function Home() {
               <p className={styles.text}>Choose India’s most trusted online gaming platform and get a variety of benefits such as:</p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', marginTop: '1.5rem' }}>
                 <div>
-                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>âœ… Reputed Brand</h4>
+                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>✅ Reputed Brand</h4>
                   <p style={{ color: '#ccc', fontSize: '0.9rem' }}>With more than a decade in the online gaming domain, you can completely rely on us to keep your money and data safe.</p>
                 </div>
                 <div>
-                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>âš¡ Instant Reddy Anna ID</h4>
+                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>⚡ Instant Reddy Anna ID</h4>
                   <p style={{ color: '#ccc', fontSize: '0.9rem' }}>Create and start gaming in just a few minutes after registering on the portal.</p>
                 </div>
                 <div>
-                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>ðŸ’¸ Instant Withdrawals</h4>
+                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>💸 Instant Withdrawals</h4>
                   <p style={{ color: '#ccc', fontSize: '0.9rem' }}>Withdraw cash from your Reddy Anna wallet to your UPI or NetBanking account the same day with no extra charges.</p>
                 </div>
                 <div>
@@ -184,7 +184,7 @@ export default function Home() {
                   <p style={{ color: '#ccc', fontSize: '0.9rem' }}>Get access to gaming on your favorite sports – cricket, football, kabaddi, tennis, and more.</p>
                 </div>
                 <div>
-                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>ðŸ”’ 100% Safe & Secure</h4>
+                  <h4 style={{ color: '#f8b500', marginBottom: '0.3rem' }}>🔒 100% Safe & Secure</h4>
                   <p style={{ color: '#ccc', fontSize: '0.9rem' }}>All financial transactions on the portal are encrypted with the best encryption technology.</p>
                 </div>
               </div>
@@ -419,7 +419,7 @@ export default function Home() {
               </p>
               <div style={{ marginTop: '1rem' }}>
                 <a href="/september-cricket-news/" className={styles.secondaryBtn} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
-                  Show More âž”
+                  Show More ➔
                 </a>
               </div>
             </div>
@@ -433,7 +433,7 @@ export default function Home() {
               </p>
               <div style={{ marginTop: '1rem' }}>
                 <a href="/big-bash-league-2026-27/" className={styles.secondaryBtn} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
-                  Show More âž”
+                  Show More ➔
                 </a>
               </div>
             </div>
@@ -454,24 +454,24 @@ export default function Home() {
           <h2 className={styles.subheading} style={{ marginTop: '5rem' }}>What Our Members Say About Reddy Anna</h2>
           <div className={styles.grid3}>
             <div className={styles.reviewCard}>
-              <div className={styles.stars}>â˜…â˜…â˜…â˜…â˜…</div>
+              <div className={styles.stars}>★★★★★</div>
               <p className={styles.reviewText}>"I have been using Reddy Anna for three IPL seasons, and the withdrawals are super fast; I have never had to wait for more than 20 minutes for the UPI withdrawal to reflect in my account. I referred it to four of my friends, and they all had a great experience. This is the only online portal I use for sports gaming now."</p>
-              <p className={styles.reviewAuthor}>â€” Vikram Mehta, Hyderabad</p>
+              <p className={styles.reviewAuthor}>— Vikram Mehta, Hyderabad</p>
             </div>
             <div className={styles.reviewCard}>
-              <div className={styles.stars}>â˜…â˜…â˜…â˜…â˜…</div>
+              <div className={styles.stars}>★★★★★</div>
               <p className={styles.reviewText}>"I was a bit hesitant to deposit any money on any online sports gaming portal after being scammed by a Telegram operator. One of my friends suggested I try Reddy Anna, and I deposited ₹100 and placed a few bets on CSK matches. I won ₹3,400 and got the cash within 15 minutes in my Paytm wallet."</p>
-              <p className={styles.reviewAuthor}>â€” Sneha Iyer, Chennai</p>
+              <p className={styles.reviewAuthor}>— Sneha Iyer, Chennai</p>
             </div>
             <div className={styles.reviewCard}>
-              <div className={styles.stars}>â˜…â˜…â˜…â˜…â˜…</div>
+              <div className={styles.stars}>★★★★★</div>
               <p className={styles.reviewText}>"The minimum deposit of ₹100 got me addicted to the portal; I was not willing to deposit ₹1,000 on a new platform. I am now a regular member after three months and have withdrawn more than ₹40,000 in total with no issues. The live markets during the IPL are fantastic."</p>
-              <p className={styles.reviewAuthor}>â€” Arjun Kapoor, Jaipur</p>
+              <p className={styles.reviewAuthor}>— Arjun Kapoor, Jaipur</p>
             </div>
             <div className={styles.reviewCard}>
-              <div className={styles.stars}>â˜…â˜…â˜…â˜…â˜…</div>
+              <div className={styles.stars}>★★★★★</div>
               <p className={styles.reviewText}>"I had a few questions about the live login registration, but the support team was patient enough to answer all my questions via WhatsApp. My Reddy Anna ID was ready within a minute, and the entire process was much faster than any other portal I have used. It made other platforms look ridiculous in comparison."</p>
-              <p className={styles.reviewAuthor}>â€” Ravi Verma, Pune</p>
+              <p className={styles.reviewAuthor}>— Ravi Verma, Pune</p>
             </div>
           </div>
         </div>
@@ -482,7 +482,7 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.glassCard} style={{ borderLeft: '4px solid #ef4444', marginBottom: '4rem' }}>
             <h2 className={styles.subheading} style={{ color: '#ef4444', textAlign: 'left', display: 'flex', alignItems: 'center', gap: '10px' }}>
-              <span>âš ï¸</span> Responsible Gaming – Read Before You Start
+              <span>⚠️</span> Responsible Gaming – Read Before You Start
             </h2>
             <p className={styles.text}>Reddy Anna is an entertainment platform, and as such, all gaming activity involves real money. As a responsible gaming platform, we encourage all our members to only deposit an amount they are willing to part with and have fun doing so. We also advise our members never to chase losses by depositing more significant amounts as a result of a loss.</p>
             <p className={styles.text}>Before you start gaming on Reddy Anna, keep the following responsible gaming guidelines in mind:</p>

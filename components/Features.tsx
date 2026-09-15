@@ -5,17 +5,17 @@ const featuresData = [
   {
     title: "Established Reputation",
     description: "Backed by over 10 years of excellence in the gaming industry.",
-    icon: "âœ…"
+    icon: "✅"
   },
   {
     title: "Instant Reddy Anna ID",
     description: "Register and start gaming in under 2 minutes.",
-    icon: "âš¡"
+    icon: "⚡"
   },
   {
     title: "Fast Withdrawals",
     description: "Same-day UPI and wallet transfers with no hidden fees.",
-    icon: "ðŸ’¸"
+    icon: "💸"
   },
   {
     title: "Wide Gaming Coverage",
@@ -25,27 +25,27 @@ const featuresData = [
   {
     title: "100% Secure Platform",
     description: "SSL encryption, OTP verification, and full KYC compliance.",
-    icon: "ðŸ”’"
+    icon: "🔒"
   },
   {
     title: "Mobile-Friendly Access",
     description: "Play on the go with the Reddy Anna App.",
-    icon: "ðŸ“±"
+    icon: "📱"
   },
   {
     title: "Exciting Bonuses",
     description: "Welcome offers, cashback rewards, and festival promotions.",
-    icon: "ðŸŽ"
+    icon: "🎁"
   },
   {
     title: "24/7 Support",
     description: "Reach us anytime via WhatsApp, Telegram, or live chat.",
-    icon: "ðŸ¤"
+    icon: "🤝"
   },
   {
     title: "Responsible Gaming",
     description: "Tools for setting limits, self-exclusion, and safe gaming practices.",
-    icon: "ðŸ§ "
+    icon: "🧠"
   }
 ];
 

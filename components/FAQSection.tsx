@@ -71,7 +71,7 @@ export default function FAQSection() {
                 onClick={() => toggleFaq(index)}
               >
                 <h3>{faq.q}</h3>
-                <span className={styles.icon}>{openIndex === index ? "âˆ’" : "+"}</span>
+                <span className={styles.icon}>{openIndex === index ? "−" : "+"}</span>
               </div>
               <div className={styles.faqAnswer}>
                 <p>{faq.a}</p>

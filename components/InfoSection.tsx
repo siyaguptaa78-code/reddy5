@@ -82,23 +82,23 @@ export default function InfoSection() {
 
               <ul className={styles.checklist}>
                 <li>
-                  <span className={styles.bulletCheck}>âœ“</span>
+                  <span className={styles.bulletCheck}>✓</span>
                   <span>Bet on <strong>cricket, football, kabaddi, and tennis</strong>.</span>
                 </li>
                 <li>
-                  <span className={styles.bulletCheck}>âœ“</span>
+                  <span className={styles.bulletCheck}>✓</span>
                   <span>Play <strong>live casino games</strong> like Teen Patti, Poker, and Roulette.</span>
                 </li>
                 <li>
-                  <span className={styles.bulletCheck}>âœ“</span>
+                  <span className={styles.bulletCheck}>✓</span>
                   <span>Access your <strong>gaming dashboard</strong> to manage funds, bonuses, and bet history.</span>
                 </li>
                 <li>
-                  <span className={styles.bulletCheck}>âœ“</span>
+                  <span className={styles.bulletCheck}>✓</span>
                   <span>Deposit and withdraw money <strong>instantly via UPI or NetBanking</strong>.</span>
                 </li>
                 <li>
-                  <span className={styles.bulletCheck}>âœ“</span>
+                  <span className={styles.bulletCheck}>✓</span>
                   <span>Receive exclusive <strong>promotions linked to your Reddy Anna account</strong>.</span>
                 </li>
               </ul>

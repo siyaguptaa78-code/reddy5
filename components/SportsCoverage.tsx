@@ -15,7 +15,7 @@ export default function SportsCoverage() {
         <div className={styles.grid}>
           {/* Cricket */}
           <div className={styles.card}>
-            <div className={styles.icon}>ðŸ</div>
+            <div className={styles.icon}>🏏</div>
             <h3>Cricket Gaming</h3>
             <ul className={styles.list}>
               <li>International Test matches and ODIs</li>

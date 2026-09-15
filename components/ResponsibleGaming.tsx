@@ -7,7 +7,7 @@ export default function ResponsibleGaming() {
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.warningHeader}>
-            <span className={styles.icon}>âš ï¸</span>
+            <span className={styles.icon}>⚠️</span>
             <h2>Responsible Gaming – Read Before You Start</h2>
           </div>
 

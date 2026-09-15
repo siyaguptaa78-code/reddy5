@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
     name: "Reddy Anna",
     logoText1: "REDDY",
     logoText2: "ANNA",
-    logoSub: "â€” SINCE 2010 â€”"
+    logoSub: "— SINCE 2010 —"
   },
 
   // ==========================================
