@@ -412,6 +412,20 @@ export default function Home() {
           <div className={styles.grid3} style={{ gridTemplateColumns: '1fr', maxWidth: '800px', margin: '0 auto', gap: '2rem' }}>
             <div className={styles.glassCard} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
               <h3 style={{ color: '#f8b500', fontSize: '1.8rem', marginBottom: '0.5rem', textAlign: 'left' }}>
+                September Cricket 2026: Major Matches, Series and Events to Follow
+              </h3>
+              <p style={{ color: '#ccc', fontSize: '1rem', lineHeight: '1.6' }}>
+                From the India vs Afghanistan T20I series and Asian Games cricket in Nagoya to Australia&apos;s ODI World Cup preparation and India&apos;s busy home season, here&apos;s everything cricket fans should follow this September.
+              </p>
+              <div style={{ marginTop: '1rem' }}>
+                <a href="/september-cricket-schedule-2026/" className={styles.secondaryBtn} style={{ textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
+                  Show More ➔
+                </a>
+              </div>
+            </div>
+
+            <div className={styles.glassCard} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+              <h3 style={{ color: '#f8b500', fontSize: '1.8rem', marginBottom: '0.5rem', textAlign: 'left' }}>
                 September Cricket News: India’s Rising Stars, Major Records and a Changing International Landscape
               </h3>
               <p style={{ color: '#ccc', fontSize: '1rem', lineHeight: '1.6' }}>
