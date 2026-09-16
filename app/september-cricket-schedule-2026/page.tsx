@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import React from "react";
+import Link from "next/link";
 import styles from "./blog.module.css";
 
 export const metadata: Metadata = {
@@ -24,7 +25,7 @@ export default function SeptemberCricketSchedule2026Page() {
           </p>
 
           <p className={styles.para}>
-            For readers following the latest cricket developments, Reddy Raj offers another place to keep up with sports-related information and updates.
+            For readers following the latest cricket developments, <Link href="/" style={{ color: "#f8b500", textDecoration: "underline" }}>Reddy Raj</Link> offers another place to keep up with sports-related information and updates.
           </p>
 
           <h2 className={styles.subheading}>India vs Afghanistan: T20I Series</h2>
